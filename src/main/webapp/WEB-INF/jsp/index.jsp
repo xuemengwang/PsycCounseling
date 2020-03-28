@@ -12,7 +12,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>525心理网_您身边的心理咨询专家</title>
+    <title>525心理网</title>
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/css.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/index.css">
     <script src="${pageContext.request.contextPath}/js/jquery-1.8.3.js"></script>
