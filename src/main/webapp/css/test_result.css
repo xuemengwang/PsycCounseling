@@ -1,0 +1,356 @@
+#ceshi-head {
+    display: block;
+    padding: 2em 0 0 0;
+}
+
+#ceshi-head .ceshi-tit {
+    font-size: 2.5em;
+    padding-bottom: .6em;
+    font-weight: bold;
+}
+
+#ceshi-head .ceshi-des {
+    display: block;
+    padding: 0 0 .4em 0;
+    font-size: 1.1em;
+    color: #a7a7a7;
+    border-bottom: solid 1px #e5e5e5;
+    padding-bottom: .8em;
+}
+
+.result-tit {
+    display: block;
+    padding: 2em 2em 0 0;
+}
+
+.result-tit i {
+    display: block;
+    text-align: center;
+    font-size: 1.4em;
+    color: #000;
+    padding: 1em 0 .8em 0;
+    font-style: normal;
+}
+
+.result-tit b {
+    display: block;
+    text-align: center;
+    color: #000;
+    font-size: 2.5em;
+}
+
+.result-txt {
+    display: block;
+    padding: 2em 0 0 0;
+    font-size: 1.2em;
+    color: #414141;
+    line-height: 1.9em;
+    text-indent: 2em;
+}
+
+.result-txt br {
+    line-height: 3em;
+    display: block;
+    padding-bottom: 1em;
+}
+
+.result-info {
+    display: block;
+    padding: .5em 0 0 0;
+    font-size: 1em;
+    text-align: center;
+    color: #000;
+    margin-top: 1.5em;
+}
+
+.result-info a {
+    border: solid 1px #eee;
+    border-radius: 100em;
+    background: #fff;
+    color: #000;
+    padding: .5em 2.5em;
+    margin: 0 .2em;
+}
+
+.result-info a:hover {
+    border: solid 1px #D9D9D9;
+    border-radius: 100em;
+    background: #fff;
+    color: #000;
+    padding: .5em 2.5em;
+    margin: 0 .2em;
+    text-decoration: none;
+}
+
+.fun {
+    display: block;
+    padding: 2em 4em 3em 4em;
+}
+
+.fun li {
+    display: block;
+    float: left;
+}
+
+.fun li a {
+    width: 95%;
+    margin: 0 auto;
+    height: 2.8em;
+    line-height: 2.8em;
+    text-align: center;
+    font-size: 1.5em;
+    border-radius: 100em;
+    display: block;
+}
+
+.fun li.ask {
+    width: 60%;
+}
+
+.fun li.again {
+    width: 40%;
+}
+
+.fun li.ask a {
+    background: #50D25B;
+    color: #fff;
+    border: solid 1px #50D25B;
+}
+
+.fun li.ask a:hover {
+    background: #56DF61;
+    color: #fff;
+    border: solid 1px #50D25B;
+    text-decoration: none;
+}
+
+.fun li.again a {
+    background: #f3f3f3;
+    color: #414141;
+    border: solid 1px #e5e5e5;
+}
+
+.fun li.again a:hover {
+    background: #fff;
+    color: #414141;
+    border: solid 1px #e5e5e5;
+    text-decoration: none;
+}
+
+.p-title {
+    padding: 2em 0 1em 0;
+    font-size: 1.8em;
+    color: #a7a7a7;
+    display: block;
+    text-align: center;
+}
+
+.p-title i {
+    font-style: normal;
+    font-size: .8em;
+}
+
+.c-fun {
+    display: block;
+    padding: 5px 0 5px 0;
+}
+
+.c-fun li {
+    display: block;
+}
+
+.c-fun li a {
+    display: block;
+    font-size: 18px;
+    height: 70px;
+    color: #414141;
+    line-height: 22px;
+    border: solid 5px #eee;
+    border-radius: 100px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+}
+
+.c-fun li a:hover {
+    display: block;
+    font-size: 18px;
+    height: 70px;
+    color: #414141;
+    line-height: 22px;
+    border: solid 5px #DBDBDB;
+    border-radius: 100px;
+    padding-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    text-decoration: none;
+}
+
+.c-fun li a i {
+    font-style: normal;
+    color: #a7a7a7;
+    font-family: 宋体;
+    font-size: 12px;
+    display: block;
+}
+
+.c-fun li a i em {
+    font-style: normal;
+}
+
+.totallist {
+    display: block;
+    padding: 1em 0;
+    text-indent: 0;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.totallist li {
+    display: block;
+    padding: .4em 0;
+}
+
+.totallist li br {
+    line-height: normal;
+}
+
+.totallist .tit {
+    font-size: 1em;
+    color: #a7a7a7;
+    padding: 0 0 .5em 0;
+    border-bottom: solid 2px #e0e0e0;
+}
+
+.totallist .tit .td1 {
+    display: block;
+    width: 50%;
+    float: left;
+}
+
+.totallist .tit .td2 {
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.totallist .item {
+    font-size: 1em;
+    color: #000;
+    border-bottom: dotted 1px #e0e0e0;
+}
+
+.totallist .item .td1 {
+    display: block;
+    width: 50%;
+    float: left;
+    color: #000;
+}
+
+.totallist .item .td1 i {
+    display: block;
+    width: 70%;
+    float: left;
+    color: #000;
+    font-style: normal;
+}
+
+.totallist .item .td1 em {
+    display: block;
+    width: 30%;
+    float: left;
+    color: #000;
+    font-style: normal;
+}
+
+.totallist .item .td2 {
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: right;
+    color: #000;
+}
+
+.sublist {
+    display: block;
+    padding: 1em 0;
+    text-indent: 0;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.sublist li {
+    display: block;
+    padding: .4em 0;
+}
+
+.sublist li br {
+    line-height: normal;
+}
+
+.sublist .tit {
+    font-size: 1em;
+    color: #a7a7a7;
+    padding: 0 0 .5em 0;
+    border-bottom: solid 2px #e0e0e0;
+}
+
+.sublist .tit span {
+    display: block;
+    float: left;
+}
+
+.sublist .tit .td1 {
+    width: 18%;
+}
+
+.sublist .tit .td0 {
+    width: 20%;
+    text-align: right;
+}
+
+.sublist .tit .td2 {
+    width: 42%;
+    text-align: right;
+}
+
+.sublist .item {
+    font-size: 1em;
+    color: #000;
+    border-bottom: dotted 1px #e0e0e0;
+}
+
+.sublist .item span {
+    display: block;
+    float: left;
+    color: #000;
+}
+
+.sublist .item .red {
+    color: #f10;
+}
+
+.sublist .item .green {
+    color: #279F32;
+}
+
+.sublist .item .td1 {
+    width: 18%;
+}
+
+.sublist .item .td0 {
+    width: 20%;
+    text-align: right;
+}
+
+.sublist .item .td2 {
+    width: 42%;
+    text-align: right;
+}
+
+#typelist {
+    border-bottom: none;
+}

@@ -1,0 +1,350 @@
+body {
+    background: #fff;
+}
+
+.bg1 {
+    background: #E0E0E0;
+}
+
+.bg2 {
+    background: #F0F0F0;
+}
+
+.bg3 {
+    background: #EBEBEB;
+}
+
+.bg4 {
+    background: #E5E5E5;
+}
+
+.bg5 {
+    background: #eee;
+}
+
+.bg6 {
+    background: #f8f8f8;
+}
+
+.bg7 {
+    background: #f2f2f2;
+}
+
+.bg8 {
+    background: #fff;
+}
+
+.menubd {
+    border-top: dotted 1px #D3D3D3;
+}
+
+.dr-info {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 85px 0 40px 0;
+}
+
+.dr-info .h-base-a {
+    display: block;
+    float: left;
+}
+
+.dr-info .h-base-a li {
+    display: block;
+}
+
+.dr-info .h-base-a .avatar {
+    display: block;
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    border: solid 1px #eee;
+}
+
+.dr-info .h-base-a .avatar img {
+    display: block;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background: #eee;
+    overflow: hidden;
+}
+
+.dr-info .h-base-a .fans {
+    padding: 20px 0 0 100px;
+}
+
+.dr-info .h-base-a .fans a {
+    padding-right: 15px;
+    color: #a7a7a7;
+    font-family: 宋体;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    border-right: solid 1px #DDD;
+}
+
+.dr-info .h-base-a .fans a i {
+    font-style: normal;
+    font-size: 16px;
+    display: block;
+    color: #737373;
+    font-family: Arial;
+    padding-top: 8px;
+}
+
+.dr-info .h-base-a .fans .no {
+    border: none;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.dr-info .h-base-a .fans a:hover, .dr-info .h-base-a .fans a:hover i {
+    text-decoration: none;
+    color: #000;
+}
+
+.dr-info .h-base-a .fun {
+    clear: both;
+    padding: 20px 0 0 35px;
+}
+
+.dr-info .h-base-a .fun a {
+    display: block;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 6px;
+    color: #737373;
+    background: #f9f9f9;
+    float: left;
+    font-size: 12px;
+    border: solid 1px #DDD;
+}
+
+.dr-info .h-base-a .fun a:hover {
+    display: block;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 6px;
+    color: #000;
+    background: #fff;
+    float: left;
+    font-size: 12px;
+    border: solid 1px #DDD;
+    text-decoration: none;
+}
+
+.dr-info .h-base-a .fun .no, .dr-info .h-base-a .fun a.no:hover {
+    margin: 0;
+}
+
+.dr-info .dr-base {
+    float: left;
+    display: block;
+    padding-left: 50px;
+    width: 568px;
+    height: auto;
+}
+
+.dr-info .dr-base li {
+    display: block;
+}
+
+.dr-info .dr-base .dname {
+    height: auto;
+    padding-bottom: 5px;
+}
+
+.dr-info .dr-base .dname b {
+    font-size: 36px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(140, 140, 140, 0.5);
+    color: #000;
+    padding-right: 10px;
+}
+
+.dr-info .dr-base .dname em {
+    position: absolute;
+}
+
+.dr-info .dr-base .dname em img {
+    vertical-align: middle;
+    position: relative;
+    top: -6px;
+}
+
+.dr-info .dr-base .dremark {
+    color: #737373;
+    font-size: 17px;
+    line-height: 32px;
+}
+
+.dr-info .dr-base .dask {
+    padding-top: 30px;
+}
+
+.dr-info .dr-base .dask i {
+    color: #05B014;
+    font-style: normal;
+    font-size: 20px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.dr-info .dr-base .dask i em {
+    font-size: 28px;
+    font-style: normal;
+    font-family: Arial;
+}
+
+.dr-info .dr-base .dask a {
+    display: block;
+    width: 188px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #06C219;
+    border-radius: 100px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.dr-info .dr-base .dask a:hover {
+    display: block;
+    width: 188px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #07D01B;
+    border-radius: 100px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.dr-info .dr-base .dfoor {
+    display: block;
+    font-size: 14px;
+    color: #737373;
+    line-height: 26px;
+    padding-top: 100px;
+}
+
+.dr-info .dr-base .dfoor i {
+    font-style: normal;
+    color: #a7a7a7;
+    font-size: 12px;
+}
+
+.dr-info .dr-base .dfoor a {
+    color: #737373;
+}
+
+.dr-info .dr-base .dfoor a.qq, .dr-info .dr-base .dfoor a.msn {
+    padding: 3px 5px 3px 5px;
+}
+
+.dr-info .dr-base .dfoor a.qq:hover, .dr-info .dr-base .dfoor a.msn:hover {
+    padding: 3px 5px 3px 5px;
+    background: #f9f9f9;
+    text-decoration: none;
+    border-radius: 100px;
+    color: #737373;
+}
+
+.dr-info .dr-base .dfoor a em {
+    font-style: normal;
+    font-size: 12px;
+    font-family: 宋体;
+    color: #a7a7a7;
+}
+
+.dr-info .dr-base .dfoor a.set {
+    color: #a7a7a7;
+    font-size: 12px;
+    position: relative;
+    left: 505px;
+    top: -150px;
+}
+
+.dr-info .dr-base .dfoor a.zc {
+    font-size: 14px;
+    padding: 2px 8px 15px 8px;
+    color: #a7a7a7;
+}
+
+.menulist {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 40px 0 40px 0;
+}
+
+.menulist .item {
+    float: left;
+    display: block;
+    padding: 0 40px 0 40px;
+}
+
+.cutover {
+    display: block;
+    position: absolute;
+}
+
+.cutover a {
+    position: relative;
+    top: -55px;
+    left: 880px;
+    font-size: 14px;
+    background: #D0D0D0;
+    color: #fff;
+    display: block;
+    padding: 8px 15px 8px 15px;
+}
+
+.cutover a:hover {
+    position: relative;
+    top: -55px;
+    left: 880px;
+    font-size: 14px;
+    background: #DFDFDF;
+    color: #fff;
+    display: block;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+}
+
+.avatar .cutoveravatar {
+    position: absolute;
+    display: none;
+}
+
+.avatar .cutoveravatar em {
+    position: relative;
+    top: -50px;
+    font-style: normal;
+    font-size: 18px;
+    color: #fff;
+    display: block;
+    width: 350px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #737373;
+    opacity: .55;
+    -moz-opacity: .55;
+    filter: alpha(opacity=55);
+    border-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

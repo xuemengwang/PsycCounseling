@@ -1,0 +1,507 @@
+.setbox {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    font-size: .8em;
+    padding: 2em 0;
+}
+
+.dottedline {
+    display: block;
+    border-bottom: dotted 1px #e0e0e0;
+}
+
+a:focus, input:focus, textarea:focus, select:focus {
+    outline: 0;
+}
+
+#baseinfo {
+    margin-bottom: 2em;
+    padding: 2em 0;
+}
+
+#baseinfo .avatar {
+    float: left;
+    overflow: hidden;
+    width: 75px;
+    height: 75px;
+    display: block;
+    border-radius: 100em;
+    overflow: hidden;
+}
+
+#baseinfo .avatar img {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 100em;
+}
+
+#baseinfo .avatar i {
+    position: relative;
+    font-style: normal;
+    display: block;
+    background: #737373;
+    width: auto;
+    height: 30px;
+    color: #fff;
+    left: 0;
+    top: -25px;
+    font-size: 12px;
+    font-family: 宋体;
+    text-align: center;
+    line-height: 20px;
+    opacity: .75;
+    -moz-opacity: .75;
+    filter: alpha(opacity=75);
+}
+
+#baseinfo .uinfo {
+    float: left;
+    display: block;
+    padding-left: 2em;
+    color: #a7a7a7;
+    line-height: 25px;
+    height: 80px;
+}
+
+#baseinfo .uinfo b {
+    padding-right: 30px;
+    color: #000;
+    font-weight: normal;
+}
+
+.uc-wd a {
+    color: #279F32;
+}
+
+.uc-set-list {
+    display: block;
+    border-top: solid 1px #eee;
+}
+
+.uc-set-list li {
+    display: block;
+    height: 30px;
+    width: auto;
+    line-height: 30px;
+    padding: 1em 0;
+    border-bottom: solid 1px #eee;
+    cursor: pointer;
+}
+
+.uc-set-list li.uc-rz {
+    height: 50px;
+}
+
+.uc-set-list li.uc-rz span.tit {
+    float: left;
+    display: block;
+    width: 130px;
+    line-height: 25px;
+    background-image: url(https://res.psy525.cn/pc/res/images/uc/rz_img.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+}
+
+.uc-set-list li.uc-rz span.info {
+    float: left;
+    display: block;
+    width: 550px;
+    color: #B8B8B8;
+    line-height: 55px;
+}
+
+.uc-set-list li span.tit {
+    float: left;
+    display: block;
+    width: 200px;
+    line-height: 25px;
+}
+
+.uc-set-list li span.tit b {
+    color: #000;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.uc-set-list li span.tit i {
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+}
+
+.uc-set-list li span.info {
+    float: left;
+    display: block;
+    width: 550px;
+    color: #B8B8B8;
+    background: none;
+}
+
+.uc-set-list li label {
+    float: right;
+    display: block;
+    color: #2DCD2E;
+    cursor: pointer;
+}
+
+#base {
+    display: block;
+    margin-bottom: 1em;
+    background: #f5f5f5;
+    height: auto;
+    border-bottom: dotted 1px #DADADA;
+}
+
+#base .itembase {
+    display: block;
+    padding: 1em;
+    color: #a7a7a7;
+    background: #eee;
+    margin-bottom: 30px;
+    font-size: .7em;
+}
+
+#base .itembase b {
+    font-size: 15px;
+    padding-right: 5px;
+    color: #414141;
+}
+
+#base .itembase a {
+    padding: 15px;
+    color: #2DCD2E;
+}
+
+#base .itembase i {
+    padding: 15px;
+    font-weight: bold;
+    color: #f30;
+    font-style: normal;
+}
+
+#base .item i {
+    padding: 0 2em;
+}
+
+#regform {
+    float: none;
+    width: auto;
+    padding: 0;
+}
+
+#regform .cancel {
+    padding: 15px;
+    font-size: 18px;
+    display: block;
+    float: left;
+    font-weight: normal;
+}
+
+#btn-apply {
+    font-size: 18px;
+}
+
+.btnuc {
+    font-size: 18px;
+    width: 112px;
+    height: 40px;
+}
+
+#regform .item b {
+    font-size: 16px;
+    float: left;
+    line-height: 30px;
+    display: block;
+    font-weight: normal;
+    color: #000;
+}
+
+#regform .item {
+    height: 1em;
+}
+
+#base .item input, #base .item textarea, #base .item label, #base .item select, #base #btnitem {
+    display: none;
+}
+
+#regform .item .email-edit {
+    display: block;
+    float: left;
+}
+
+#regform .mobile a {
+    padding: 10px;
+    position: relative;
+    top: 8px;
+}
+
+#regform .mobile em {
+    width: auto;
+    font-size: 14px;
+    position: relative;
+    top: -5px;
+}
+
+#regform .mobile .mstatus0 {
+    color: red;
+}
+
+#regform .mobile .mstatus1 {
+    color: #000;
+}
+
+#regform .item .isshowmobile {
+    position: relative;
+    top: -5px;
+}
+
+#bio, #chargestandard, #payment {
+    width: 70%;
+}
+
+#regform .item a {
+    color: #2DCD2E;
+}
+
+#blackinfo {
+    display: block;
+    padding: 1em;
+    font-size: 1em;
+    background: #f9f9f9;
+}
+
+#blackinfo a {
+    text-decoration: underline;
+}
+
+#blackinfo b {
+    padding: 0 .5em;
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#blacklist {
+    display: block;
+    clear: both;
+    border-top: solid 1px #eee;
+    margin-top: 1em 0;
+}
+
+#blacklist li {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+    border-bottom: solid 1px #eee;
+}
+
+#blacklist li:hover {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+    border-bottom: solid 1px #eee;
+    background: #f9f9f9;
+}
+
+#blacklist li.no {
+    width: auto;
+    height: auto;
+    border: none;
+    color: #a7a7a7;
+}
+
+#blacklist li a.avatar {
+    float: left;
+}
+
+#blacklist li a.avatar img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100px;
+}
+
+#blacklist li span {
+    float: left;
+    display: block;
+    padding-left: 10px;
+    line-height: 24px;
+    color: #BABABA;
+    font-size: 12px;
+    font-family: 宋体;
+}
+
+#blacklist li span a.un {
+    font-size: 18px;
+    font-family: 微软雅黑;
+    color: #414141;
+}
+
+#blacklist li a.del {
+    display: none;
+    position: relative;
+    top: -60px;
+    float: right;
+    font-size: 22px;
+    color: #a7a7a7;
+    font-family: 宋体;
+}
+
+#blacklist li a.del:hover {
+    position: relative;
+    top: -60px;
+    float: right;
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+    font-family: 宋体;
+}
+
+#clt_black_uid {
+    width: 20%;
+    height: auto;
+    background: #eee;
+    padding: .7em;
+    font-size: 1em;
+    border: none;
+    position: relative;
+    top: -0.1em;
+}
+
+#btn_black_add {
+    width: 8em;
+    font-size: 1.1em;
+    color: #fff;
+    background: #2DCD2E;
+    border: none;
+    padding: .5em 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+    border-radius: 0;
+}
+
+#btn_black_add:hover {
+    width: 8em;
+    font-size: 1.1em;
+    color: #fff;
+    background: #50D25B;
+    border: none;
+    padding: .5em 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+    border-radius: 0;
+}
+
+#btn-submit-blackmax {
+    width: 20%;
+    font-size: 1.1em;
+    color: #fff;
+    background: #2DCD2E;
+    border: none;
+    padding: .6em 0;
+    border-radius: 100em;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+}
+
+#btn-submit-blackmax:hover {
+    width: 20%;
+    font-size: 1.1em;
+    color: #fff;
+    background: #50D25B;
+    border: none;
+    padding: .6em 0;
+    border-radius: 100em;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Microsoft YaHei';
+}
+
+.black-p {
+    font-size: 1em;
+}
+
+#clt_black_num {
+    width: 150px;
+}
+
+#clt_item_credit, #clt_credit {
+    font-size: 16px;
+    line-height: 27px;
+    color: #a7a7a7;
+    font-family: 宋体;
+}
+
+#regform p.item #clt_item_credit b {
+    font-weight: bold;
+    color: #f60;
+    padding-right: 3px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#regform p.item #clt_credit b {
+    font-weight: bold;
+    color: #279F32;
+    padding-right: 3px;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+#regform p.item #clt_credit a {
+    font-size: 13px;
+}
+
+#black-max-dh {
+    display: block;
+    padding: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#black-max-dh li {
+    display: block;
+    padding: 10px;
+    border-bottom: dotted 1px #eee;
+}
+
+#black-max-dh li i {
+    float: left;
+    display: block;
+    font-style: normal;
+}
+
+#black-max-dh li .c1 {
+    width: 200px;
+}
+
+#black-max-dh li .c2 {
+    width: 180px;
+    font-size: 16px;
+    font-family: Arial;
+}
+
+#black-max-dh li .c3 {
+    width: 300px;
+}
+
+#black-max-dh li.item .c2 {
+    color: #f60;
+}
+
+#black-max-dh li.tit i {
+    color: #AAA;
+    font-size: 14px;
+    font-family: 宋体;
+}
+
+#black-max-dh li.no {
+    color: #a7a7a7;
+}

@@ -1,0 +1,272 @@
+a:focus {
+    outline: 0;
+}
+
+#msg_list {
+    display: block;
+    padding: 0 0 3em 0;
+    min-height: 500px;
+    width: 90%;
+    margin: 0 auto;
+    border-top: solid 1px #e9e9e9;
+}
+
+#msg_list .item {
+    display: block;
+}
+
+#msg_list .top {
+    background: #EEF3F9;
+}
+
+#msg_list .item a {
+    display: block;
+    padding: .6em 0;
+    border-bottom: solid 1px #e9e9e9;
+}
+
+#msg_list .item a:hover {
+    display: block;
+    padding: .6em 0;
+    border-bottom: solid 1px #e9e9e9;
+    background: #f9f9f9;
+}
+
+#msg_list .item a .avatar {
+    display: block;
+    width: 3.4em;
+    height: 3.4em;
+    padding-right: .8em;
+    float: left;
+}
+
+#msg_list .item a .avatar img {
+    display: block;
+    border-radius: 100em;
+    width: 100%;
+    height: auto;
+    margin-top: .3em;
+}
+
+#msg_list .item a .txt {
+    display: block;
+    width: 90%;
+    line-height: 1.6em;
+    padding: .5em 0 .5em 0;
+    float: left;
+}
+
+#msg_list .item a .txt b {
+    display: block;
+    float: left;
+    width: 65%;
+    font-size: 1.1em;
+    color: #000;
+    font-weight: normal;
+    font-family: 'Microsoft YaHei';
+}
+
+#msg_list .item a .txt em {
+    display: block;
+    width: 35%;
+    font-size: .8em;
+    color: #A5A5A5;
+    text-align: right;
+    float: right;
+}
+
+#msg_list .item a .txt label {
+    display: block;
+    width: 100%;
+    font-size: .8em;
+    color: #a7a7a7;
+    clear: both;
+    cursor: pointer;
+}
+
+#msg_list .delinfo {
+    display: block;
+    font-size: .7em;
+    color: #a7a7a7;
+    text-align: center;
+    padding: .5em 0;
+}
+
+#msg_list .showlogin {
+    display: block;
+    padding: 3em 0;
+}
+
+#msg_list .showlogin i {
+    font-size: .8em;
+    color: #a7a7a7;
+    display: block;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#msg_list .showlogin a {
+    display: block;
+    width: 60%;
+    text-align: center;
+    font-size: .8em;
+    color: #000;
+    background: #f0f0f0;
+    padding: .7em;
+    border-radius: 100em;
+    margin: 0 auto;
+}
+
+#msg_list .no {
+    display: block;
+    padding: 5em 0;
+    text-align: center;
+    color: #a7a7a7;
+    font-size: .8em;
+}
+
+#msg_list .load {
+    display: block;
+    padding: 1.5em 0;
+    text-align: center;
+    color: #a7a7a7;
+    font-size: .8em;
+}
+
+#msg_list .load img {
+    margin-right: .5em;
+    position: relative;
+    top: .2em;
+}
+
+#msg_list .item a .avatar i.newstat i {
+    left: 2.9em;
+    top: .1em;
+    width: auto;
+    height: auto;
+    padding: .25em .25em;
+    font-size: .8em;
+    font-family: Arial;
+}
+
+#msg_list .item a .avatar i.newstat {
+    height: 0;
+    width: auto;
+}
+
+#msg_list .item a .avatar i.new i {
+    left: 2.5em;
+    top: .2em;
+    height: .8em;
+    width: .8em;
+    background: #f30;
+    border-radius: 100em;
+}
+
+.bar .fun {
+    display: block;
+    float: right;
+    position: absolute;
+    right: 0;
+    margin-top: 0;
+    padding: 0;
+    margin: .7em;
+    width: 6em;
+    padding: .25em 0;
+    color: #E3FFE6;
+    font-size: .7em;
+    text-align: center;
+}
+
+#mfun {
+    display: block;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#mfun div {
+    display: block;
+    padding: 1em 0;
+}
+
+#mfun div a.read {
+    padding: .7em 3em;
+    text-align: center;
+    font-size: .8em;
+    border: solid 1px #e9e9e9;
+    color: #414141;
+    border-radius: 100em;
+    background: #fff;
+    float: left;
+}
+
+#mfun div a.read:hover {
+    padding: .7em 3em;
+    text-align: center;
+    font-size: .8em;
+    border: solid 1px #2FC030;
+    color: #414141;
+    border-radius: 100em;
+    background: #fff;
+    float: left;
+}
+
+#mfun div p {
+    float: right;
+    font-size: .7em;
+    color: #737373;
+    padding: .5em 0;
+}
+
+#mfun div p i {
+    float: left;
+    font-size: 1.2em;
+    color: #a7a7a7;
+    padding: .2em .4em;
+}
+
+#mfun div p .sound {
+    float: left;
+    display: block;
+}
+
+#mfun div p a {
+    border-radius: 100em;
+    overflow: hidden;
+    display: block;
+    border: solid 1px #E1E1E1;
+    background: #E1E1E1;
+    color: #fff;
+    margin-right: 2em;
+}
+
+#mfun div p a em {
+    padding: .3em 1em;
+    display: block;
+    float: left;
+}
+
+#mfun div p .sound .on {
+    background: #fff;
+    color: #737373;
+    border-radius: 100em;
+    display: block;
+}
+
+#mfun div p a.on {
+    background: #50D25B;
+}
+
+#mfun div p .dyntit {
+    float: left;
+    display: block;
+}
+
+#mfun div p .dyntit .on {
+    background: #fff;
+    color: #737373;
+    border-radius: 100em;
+    display: block;
+}

@@ -1,0 +1,89 @@
+#ask-top {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: #f0f0f0;
+}
+
+#ask-top .pu {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    min-width: 1000px;
+    padding-top: 40px;
+}
+
+#ask-top .pu a {
+    font-size: 12px;
+    display: block;
+    color: #737373;
+    float: left;
+    padding: 10px 0 10px 0;
+    position: relative;
+    top: 1px;
+    margin-right: 90px;
+    text-align: center;
+}
+
+#ask-top .pu a.on {
+    font-size: 12px;
+    display: block;
+    color: #000;
+    float: left;
+    padding: 10px 0 10px 0;
+    position: relative;
+    top: 1px;
+    margin-right: 90px;
+    text-align: center;
+    border-bottom: solid 3px #55C860;
+}
+
+#ask-top .pu a b {
+    font-size: 30px;
+    display: block;
+    padding: 0 0 3px 0;
+    color: #737373;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+    font-weight: normal;
+}
+
+#ask-top .pu a.on b {
+    color: #000;
+    font-weight: normal;
+}
+
+#ask-top .pu a:hover {
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    color: #BFBFBF;
+    float: left;
+    padding: 10px 0 10px 0;
+    position: relative;
+    top: 1px;
+    margin-right: 90px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#ask-top .pu a:hover b {
+    color: #000;
+    font-weight: normal;
+}
+
+#ask-top .pu a i {
+    position: absolute;
+}
+
+#ask-top .pu a i em {
+    font-style: normal;
+    font-size: 12px;
+    padding: 1px 8px 1px 8px;
+    background: #f30;
+    position: relative;
+    border-radius: 100px;
+    color: #fff;
+    top: -40px;
+    right: -80px;
+}

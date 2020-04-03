@@ -1,0 +1,428 @@
+body {
+    background: #fff;
+}
+
+#regdr-form {
+    width: 1000px;
+    height: 600px;
+    background: #fff;
+    border: solid 1px #E8E8E8;
+    overflow: hidden;
+}
+
+#regdr-tit {
+    display: block;
+    font-size: 14px;
+    padding: 40px 0 20px 0;
+}
+
+#regdr-tit b {
+    display: block;
+    font-size: 22px;
+    position: relative;
+    top: -5px;
+    padding-right: 15px;
+    font-weight: normal;
+    padding-bottom: 15px;
+}
+
+#regdr-tit span {
+    display: block;
+    float: left;
+    width: 33%;
+    height: 20px;
+    border-top: solid 1px #BCBCBC;
+    font-size: 12px;
+    font-family: 宋体;
+    margin-right: 1px;
+    padding-top: 20px;
+    color: #ACACAC;
+}
+
+#regdr-tit span.on {
+    border-top: solid 1px #39AA39;
+    color: #39AA39;
+}
+
+.send_success_icon {
+    display: block;
+    height: 150px;
+    width: 405px;
+    padding-left: 100px;
+    line-height: 25px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/reg/email_icon.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.send_success_icon b {
+    font-size: 16px;
+}
+
+.send_success_icon a {
+    display: block;
+    width: 180px;
+    font-size: 18px;
+    height: 40px;
+    padding-top: 1px;
+}
+
+.send_success_icon a:hover {
+    color: #fff;
+}
+
+#regdr-remark {
+    display: block;
+    height: 100px;
+    width: 575px;
+    padding-left: 100px;
+    line-height: 25px;
+    margin: 0 auto;
+    border-top: solid 1px #EFEFEF;
+    padding-top: 20px;
+    line-height: 30px;
+    color: #949494;
+}
+
+#regdr-remark a {
+    color: #279F32;
+}
+
+#modifyemail {
+    padding-left: 15px;
+    display: none;
+}
+
+#newemail {
+    width: 220px;
+    height: 24px;
+    line-height: 24px;
+    border: solid 1px #C9C9C9;
+    border-radius: 6px;
+    padding: 7px;
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+}
+
+#btn-modifyemail {
+    margin-left: 3px;
+    position: relative;
+    top: 4px;
+    *top: -4px;
+    height: 40px;
+}
+
+.w .tit {
+    font-size: 23px;
+    padding: 20px;
+    padding-bottom: 20px;
+    display: block;
+    font-weight: normal;
+    width: 800px;
+    color: #737373;
+}
+
+.w .succ {
+    display: block;
+    height: 80px;
+    width: 150px;
+    margin: 0 auto;
+    line-height: 80px;
+    font-size: 30px;
+    background-image: url(/image/succ_icon.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+}
+
+.w .remark {
+    display: block;
+    color: #737373;
+    font-size: 15px;
+    text-align: center;
+}
+
+.use {
+    display: block;
+}
+
+.use b {
+    display: block;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-weight: normal;
+    color: #737373;
+}
+
+.btn_use {
+    display: block;
+    width: 47.5%;
+    font-size: 21px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-right: 15px;
+    border: solid 5px #eee;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn_use:hover {
+    display: block;
+    width: 47.5%;
+    font-size: 21px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-right: 15px;
+    border: solid 5px #50D25B;
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.use a.app {
+    display: block;
+    width: 31%;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 12px;
+    background: #eee;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.use a.app:hover {
+    display: block;
+    width: 31%;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    margin-right: 20px;
+    margin-top: 12px;
+    background: #eee;
+    text-align: center;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.line {
+    border: none;
+    border-bottom: dotted 1px #DEDEDE;
+    display: block;
+    clear: both;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.dr-status-body {
+    display: block;
+    padding: 60px 0 90px 0;
+}
+
+.dr-status-body .status {
+    font-size: 28px;
+    display: block;
+}
+
+.remark {
+    display: block;
+    width: 100%;
+    height: auto;
+    line-height: 25px;
+    text-align: left;
+    background: #eee;
+    padding: 9px;
+}
+
+.remark img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.remark i {
+    font-style: normal;
+    font-size: 12px;
+    color: #f30;
+}
+
+.dr-body {
+    display: block;
+    padding: 0;
+}
+
+.dr-body .title {
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.dr-body a {
+    color: #279F32;
+}
+
+.dr-body .email {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
+}
+
+.dr-body .exp {
+    float: right;
+    display: block;
+    width: 300px;
+    text-align: center;
+}
+
+.dr-body .exp img {
+    padding: 5px;
+}
+
+.dr-body .online {
+    float: left;
+    display: block;
+    width: 450px;
+    padding-right: 20px;
+    padding-top: 15px;
+    overflow: hidden;
+    height: 200px;
+}
+
+.dr-body .online i {
+    font-family: 宋体;
+    font-size: 12px;
+    color: #A9A9A9;
+    font-style: normal;
+    display: block;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+#loadimg {
+    display: block;
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+}
+
+#loadimg img {
+    width: 100%;
+}
+
+#look {
+    display: block;
+}
+
+#look b {
+    font-size: 16px;
+    display: block;
+    padding-bottom: 15px;
+}
+
+#look .look-area {
+    float: left;
+    display: block;
+    width: 40%;
+    overflow: hidden;
+}
+
+#look .look-area a.look-tit {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    height: 40px;
+    overflow: hidden;
+    color: #000;
+    border-bottom: solid 1px #eee;
+}
+
+#look .look-area a.look {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: dotted 1px #eee;
+}
+
+#reason {
+    display: block;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    color: #000;
+    clear: both;
+    line-height: 30px;
+}
+
+#reason b {
+    font-weight: normal;
+}
+
+#reason .btn_reapply {
+    display: block;
+    width: 300px;
+    border: solid 1px #39AA39;
+    border-radius: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+a.plupload-button {
+    display: block;
+    width: 310px;
+    font-style: normal;
+    background: #50D25B;
+    color: #fff;
+    font-size: 22px;
+    font-family: 微软雅黑;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    margin-top: 10px;
+    border-radius: 8px;
+    position: relative;
+    top: -10px;
+}
+
+a.plupload-button:hover {
+    text-decoration: none;
+    background: #4AD756;
+}
+
+.progress {
+    width: 310px;
+    display: block;
+}
+
+.upload-pro {
+    width: 310px;
+}
+
+#copyright {
+    height: 130px;
+    background: #fff;
+    border: none;
+}
+
+#copyright p {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+#copyright span {
+    height: 60px;
+    text-align: center;
+}

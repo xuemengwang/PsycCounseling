@@ -1,0 +1,903 @@
+.bg1 {
+    background: #EBEBEB;
+}
+
+.bg2 {
+    background: #E2E2E2;
+}
+
+.bg4 {
+    background: #DFDFDF;
+}
+
+.pd {
+    display: block;
+    padding: 30px 0 30px 0;
+}
+
+.icons {
+    background-image: url(https://res.psy525.cn/pc/res/images/common/icons.png);
+    _background-image: url(https://res.psy525.cn/pc/res/images/common/icons.gif);
+}
+
+.pd {
+    display: block;
+    padding: 0;
+    padding-bottom: 15px;
+    clear: both;
+}
+
+.il {
+    float: left;
+    display: block;
+}
+
+.ir {
+    float: right;
+}
+
+.ibox {
+    overflow: hidden;
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+    background: #fff;
+    padding-top: 15px;
+}
+
+.ibox .tit2 {
+    font-size: 16px;
+    padding: 20px;
+    display: block;
+}
+
+.itit {
+    display: block;
+    height: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.itit   .tit {
+    font-size: 24px;
+    color: #414141;
+}
+
+.itit-sub {
+    display: block;
+    width: 628px;
+    height: auto;
+    padding: 20px 20px 10px 35px;
+    overflow: hidden;
+}
+
+.itit-sub .tit {
+    font-size: 16px;
+    color: #414141;
+}
+
+.itit .more {
+    font-family: 宋体;
+    font-size: 12px;
+    padding-left: 3px;
+    color: #a7a7a7;
+    font-style: normal;
+}
+
+.itit a.tit:hover, .itit a.tit-sub:hover {
+    text-decoration: none;
+}
+
+.itit-r {
+    display: block;
+    width: 300px;
+    height: auto;
+    padding: 30px 0 20px 0;
+}
+
+.itit-r .tit {
+    font-size: 16px;
+    color: #414141;
+    font-weight: normal;
+}
+
+.itit-r i {
+    font-size: 12px;
+    color: #a7a7a7;
+    padding-left: 3px;
+    font-style: normal;
+    font-family: 宋体;
+}
+
+.hot-pd {
+    padding-top: 30px;
+}
+
+#caseopen {
+    display: block;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+#caseopen li {
+    display: block;
+    padding: 5px 0 10px 0;
+}
+
+#caseopen li span {
+    display: block;
+    float: left;
+    color: #a7a7a7;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 23px;
+}
+
+#caseopen li span a.tit {
+    display: block;
+    width: 210px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #737373;
+    font-family: 微软雅黑;
+    float: left;
+}
+
+#caseopen li span a.tit:hover {
+    display: block;
+    width: 210px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #279F32;
+    font-family: 微软雅黑;
+    float: left;
+}
+
+#caseopen li span i {
+    color: #a7a7a7;
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+    float: left;
+    padding-left: 5px;
+}
+
+#caseopen li em {
+    display: block;
+    color: #a7a7a7;
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+    padding-top: 5px;
+    width: 300px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#caseopen li em a {
+    padding: 3px;
+    color: #737373;
+}
+
+.clist {
+    overflow: hidden;
+    height: auto;
+    padding: 0 20px 0 30px;
+    display: block;
+}
+
+.clist li {
+    display: block;
+    padding: 13px 0 13px 0;
+    border-bottom: dotted 1px #E2E2E2;
+}
+
+.clist li span a.tit {
+    display: block;
+    width: 880px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 19px;
+    overflow: hidden;
+    color: #414141;
+    float: left;
+}
+
+.clist li span a.tit:hover {
+    display: block;
+    width: 880px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 19px;
+    overflow: hidden;
+    color: #279F32;
+}
+
+.clist li span i {
+    color: #a7a7a7;
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+    float: left;
+    padding-left: 15px;
+}
+
+.clist li em {
+    display: block;
+    color: #a7a7a7;
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+    padding-top: 5px;
+    width: 530px;
+    height: 20px;
+    overflow: hidden;
+}
+
+.clist li em a {
+    padding: 3px;
+    color: #737373;
+}
+
+.clist li.more {
+    border: none;
+}
+
+.clist li.more a {
+    display: block;
+    padding: 8px 0 8px 0;
+    background: #F3F3F3;
+    text-align: center;
+    color: #737373;
+}
+
+.clist li.more a:hover {
+    display: block;
+    padding: 8px 0 8px 0;
+    background: #63C058;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#zt-case {
+    display: block;
+    width: 272px;
+    height: 77px;
+    background-image: url(https://res.psy525.cn/pc/res/images/channel/z_icon.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+#zt-case em {
+    font-style: normal;
+    position: relative;
+    bottom: -42px;
+    display: block;
+    width: 272px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0 !important;
+    color: #fff;
+}
+
+#zt-case:hover {
+    text-decoration: none;
+}
+
+#qlist {
+    overflow: hidden;
+    width: 620px;
+    height: auto;
+    padding: 0 0 0 30px;
+    display: block;
+}
+
+#qlist li {
+    display: block;
+    padding: 8px 10px 8px 0;
+    float: left;
+}
+
+#qlist li em {
+    font-style: normal;
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 16px;
+    text-align: center;
+    background: #63C058;
+    color: #fff;
+    float: left;
+    font-size: 13px;
+    overflow: hidden;
+}
+
+#qlist li em b {
+    display: block;
+    font-size: 14px;
+    font-family: Arial;
+    color: #fff;
+    padding-top: 5px;
+}
+
+#qlist li span {
+    display: block;
+    float: left;
+    padding-left: 10px;
+}
+
+#qlist li span a {
+    display: block;
+    width: 250px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 15px;
+    overflow: hidden;
+    color: #414141;
+}
+
+#qlist li span i {
+    display: block;
+    color: #a7a7a7;
+    font-style: normal;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+#qlist li.more {
+    clear: both;
+    display: block;
+    width: 620px;
+}
+
+#qlist li.more a {
+    display: block;
+    padding: 8px 0 8px 0;
+    background: #F3F3F3;
+    text-align: center;
+    color: #737373;
+}
+
+#qlist li.more a:hover {
+    display: block;
+    padding: 8px 0 8px 0;
+    background: #63C058;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+#qtop {
+    display: block;
+    width: 300px;
+    height: auto;
+    padding-right: 15px;
+}
+
+#qtop li {
+    display: block;
+    padding: 12px 0 12px 0;
+    border-bottom: dotted 1px #eee;
+}
+
+#qtop li a.avatar {
+    display: block;
+    width: 73px;
+    height: 73px;
+    overflow: hidden;
+    float: left;
+}
+
+#qtop li a.avatar img {
+    display: block;
+    width: 73px;
+    height: 73px;
+    border-radius: 100px;
+}
+
+#qtop li span {
+    display: block;
+    float: left;
+    padding-left: 15px;
+    line-height: 24px;
+    color: #a7a7a7;
+}
+
+#qtop li span a.un {
+    font-size: 20px;
+}
+
+#qtop li span a.un:hover {
+    text-decoration: none;
+}
+
+#qtop li span i {
+    display: block;
+    padding-top: 3px;
+    font-style: normal;
+    color: #737373;
+}
+
+#qtop li span i em {
+    font-size: 12px;
+    font-family: 宋体;
+    color: #a7a7a7;
+    font-style: normal;
+}
+
+#roomlist {
+    padding-left: 20px;
+}
+
+#roomlist li {
+    float: left;
+    padding-right: 35px;
+    padding-bottom: 20px;
+}
+
+#roomlist li a {
+    display: block;
+    overflow: hidden;
+    width: 115px;
+    height: auto;
+    line-height: 30px;
+    color: #737373;
+    text-align: center;
+    padding: 5px;
+    background: #eee;
+}
+
+#roomlist li a:hover {
+    display: block;
+    overflow: hidden;
+    width: 115px;
+    height: auto;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    background: #63C058;
+}
+
+#roomlist li a img {
+    width: 115px;
+    height: 50px;
+    display: block;
+    overflow: hidden;
+}
+
+#fbg {
+    display: block;
+    width: 1000px;
+    height: 270px;
+    margin: 0 auto;
+    background-image: url("../image/AD2.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#fask {
+    float: right;
+    margin: 25px 20px 0 0;
+    display: block;
+    width: 306px;
+    height: 225px;
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0 !important;
+    border-radius: 8px;
+}
+
+#fask p {
+    display: block;
+    padding: 60px 5px 50px 5px;
+    text-align: center;
+}
+
+#fask p i {
+    font-size: 18px;
+    font-style: normal;
+    font-family: Arial;
+    padding: 1px 5px 1px 5px;
+    background: #2BCA33;
+    color: #fff;
+    margin-left: 3px;
+    font-size: 28px;
+    border-radius: 4px;
+}
+
+#fask p em {
+    display: block;
+    color: #a7a7a7;
+    padding-top: 5px;
+    font-style: normal;
+}
+
+#fask a {
+    display: block;
+    width: 306px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background: #2BCA33;
+    font-size: 30px;
+}
+
+#fask a:hover {
+    display: block;
+    width: 306px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    background: #2FDC37;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.dr-list {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.dr-list li {
+    display: block;
+    padding: 30px 30px 30px 20px;
+    margin-bottom: 20px;
+    background: #fff;
+}
+
+.dr-list li a.avatar {
+    display: block;
+    float: left;
+    width: 120px;
+    height: 120px;
+}
+
+.dr-list li a.avatar img {
+    width: 120px;
+    height: 120px;
+    padding: 0;
+    background: #eee;
+    display: block;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.dr-list li .txt {
+    display: block;
+    float: left;
+    width: 390px;
+    height: auto;
+    padding-left: 25px;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 24px;
+    color: #a7a7a7;
+    padding-right: 10px;
+}
+
+.dr-list li .txt .un {
+    font-size: 24px;
+    padding-right: 8px;
+    font-family: microsoft yahei;
+    color: #000;
+}
+
+.dr-list li .txt .rz {
+    position: relative;
+    top: -8px;
+}
+
+.dr-list li .txt .tj {
+    position: relative;
+    left: 4px;
+    top: -5px;
+}
+
+.dr-list li .txt .online {
+    color: #a7a7a7;
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+    padding-left: 15px;
+    position: relative;
+    top: -5px;
+}
+
+.dr-list li .txt .online b {
+    color: #f30;
+    font-weight: normal;
+}
+
+.dr-list li .txt span {
+    font-style: normal;
+    display: block;
+    color: #a7a7a7;
+    font-family: microsoft yahei;
+    font-size: 13px;
+}
+
+.dr-list li .txt span b {
+    float: left;
+    display: block;
+    padding-left: 8px;
+    font-weight: normal;
+    position: relative;
+    top: 2px;
+}
+
+.dr-list li .txt span b em {
+    font-style: normal;
+    font-size: 20px;
+    font-family: 微软雅黑;
+    color: #414141;
+    position: relative;
+    top: 2px;
+}
+
+.dr-list li .txt span i {
+    float: left;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: -72px 0;
+    position: relative;
+    top: 8px;
+}
+
+.dr-list li .zc {
+    float: left;
+    font-size: 16px;
+    line-height: 26px;
+    color: #a7a7a7;
+    display: block;
+    width: 250px;
+    font-family: 宋体;
+    font-size: 12px;
+    padding-left: 20px;
+    border-left: solid 1px #EEE;
+    margin-top: 20px;
+}
+
+.dr-list li .findzx {
+    float: right;
+    padding-top: 25px;
+}
+
+.dr-list li .findzx a.btn_fzx {
+    display: block;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: #2FDC37;
+    border-radius: 100px;
+}
+
+.dr-list li .findzx a.btn_fzx:hover {
+    display: block;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: #2DEA36;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.dr-list .tx {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    color: #f60;
+    background: #FFFFDA;
+    border-radius: 4px;
+    font-family: 宋体;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+}
+
+.dr-list li .czyear {
+    position: absolute;
+    display: block;
+}
+
+.dr-list li .czyear i {
+    display: block;
+    font-size: 12px;
+    font-style: normal;
+    position: relative;
+    top: 5px;
+    color: #A3A3A3;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+    background: #f7f7f7;
+    padding: 5px 20px 5px 5px;
+    left: -20px;
+    font-family: 宋体;
+    border-top-right-radius: 100px;
+}
+
+#room {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 60px 0 10px 0;
+    color: #a7a7a7;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 22px;
+}
+
+#room b {
+    font-size: 36px;
+    color: #414141;
+    font-weight: normal;
+    font-family: 微软雅黑;
+    display: block;
+    padding-bottom: 25px;
+    display: block;
+}
+
+.title {
+    display: block;
+    clear: both;
+    font-size: 18px;
+    padding: 15px 0 15px 0;
+    color: #737373;
+}
+
+#cityhot {
+    font-size: 14px;
+    display: block;
+    padding: 20px 0 10px 0;
+    color: #737373;
+}
+
+#subsite-list {
+    display: block;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+
+#subsite-list li {
+    float: left;
+    padding: 2px 8px 2px 2px;
+}
+
+#subsite-list li a {
+    color: #A9A9A9;
+    font-family: 宋体;
+    font-size: 12px;
+}
+
+#subsite-list li a:hover {
+    color: #414141;
+    font-family: 宋体;
+    font-size: 12px;
+}
+
+#adinfo {
+    display: block;
+    padding: 60px 0 60px 0;
+}
+
+#adinfo li {
+    float: left;
+    display: block;
+    padding-right: 55px;
+}
+
+#adinfo .tit {
+    font-size: 28px;
+    color: #C1C1C1;
+}
+
+#adinfo .item a {
+    line-height: 36px;
+    display: block;
+    color: #C1C1C1;
+    text-align: center;
+}
+
+#adinfo .item a b {
+    display: block;
+    font-weight: normal;
+    font-size: 32px;
+    color: #a7a7a7;
+}
+
+#adinfo .item a:hover, #adinfo .item a:hover b {
+    text-decoration: none;
+    color: #000;
+}
+
+#caseopenpublic {
+    display: block;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+
+#caseopenpublic li {
+    display: block;
+    padding: 5px 0 10px 0;
+}
+
+#caseopenpublic li span {
+    display: block;
+    float: left;
+    color: #a7a7a7;
+    font-size: 12px;
+    font-family: 宋体;
+    line-height: 23px;
+}
+
+#caseopenpublic li span a.tit {
+    display: block;
+    width: 210px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #737373;
+    font-family: 微软雅黑;
+    float: left;
+}
+
+#caseopenpublic li span a.tit:hover {
+    display: block;
+    width: 210px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    overflow: hidden;
+    color: #279F32;
+    font-family: 微软雅黑;
+    float: left;
+}
+
+#caseopenpublic li span i {
+    color: #a7a7a7;
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+    float: left;
+    padding-left: 5px;
+}
+
+#caseopenpublic li em {
+    display: block;
+    color: #a7a7a7;
+    font-style: normal;
+    font-family: 宋体;
+    font-size: 12px;
+    padding-top: 5px;
+    width: 300px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#caseopenpublic li em a {
+    padding: 3px;
+    color: #737373;
+}

@@ -1,0 +1,169 @@
+.bgreg {
+    border-top: solid 1px #eee;
+}
+
+body {
+    background: #fff;
+}
+
+#regform {
+    display: block;
+    padding: 1em;
+}
+
+#regform .item {
+    display: block;
+    padding: 2.5em 0;
+}
+
+#regform .item i {
+    display: block;
+    font-size: 1.3em;
+    color: #737373;
+    padding-bottom: .3em;
+    font-style: normal;
+}
+
+#regform .item i em {
+    font-size: .8em;
+    color: #737373;
+    padding-left: 1em;
+    font-style: normal;
+}
+
+#regform .item i em b {
+    font-weight: normal;
+    color: #f30;
+}
+
+#regform .vdrop {
+    padding-bottom: 1em;
+}
+
+#mobile, #password, #dynpwd {
+    display: block;
+    border: solid 1px #C9C9C9;
+    width: 46%;
+    font-size: 1.2em;
+    color: #000;
+    border-radius: .3em;
+    height: 2.5em;
+    line-height: 2.5em;
+    background: #fff;
+}
+
+#dynpwd {
+    width: 25%;
+    float: left;
+}
+
+#regform .item a.send {
+    display: block;
+    width: 20%;
+    height: 3.6em;
+    line-height: 3.6em;
+    text-align: center;
+    background: #f5f5f5;
+    font-size: 1em;
+    color: #279F32;
+    border: solid 1px #7BC659;
+    border-radius: .3em;
+    float: left;
+    position: relative;
+}
+
+#regform .item a.send:hover {
+    display: block;
+    width: 20%;
+    height: 3.6em;
+    line-height: 3.6em;
+    text-align: center;
+    background: #fff;
+    font-size: 1em;
+    color: #279F32;
+    border: solid 1px #7BC659;
+    border-radius: .3em;
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+
+#regform .item a.off, #regform .item a.off:hover {
+    display: block;
+    width: 20%;
+    height: 3.6em;
+    line-height: 3.6em;
+    text-align: center;
+    background: #e2e2e2;
+    font-size: 1em;
+    color: #a7a7a7;
+    border: solid 1px #e2e2e2;
+    border-radius: .3em;
+    float: left;
+    position: relative;
+}
+
+#regform .item a i {
+    font-size: 1em;
+    display: inline;
+    font-style: normal;
+    line-height: normal;
+    height: auto;
+    width: auto;
+    padding: 0;
+    float: none;
+    padding-right: .2em;
+    font-weight: bold;
+    color: #f60;
+    letter-spacing: 0;
+}
+
+#regform .item a.send:focus, #btn-u-next:focus {
+    outline: 0;
+}
+
+#btn-u-next {
+    display: block;
+    width: 48%;
+    font-size: 1.5em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #55C860;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+
+#btn-u-next:hover {
+    display: block;
+    width: 48%;
+    font-size: 1.5em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #50D25B;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+
+#copyright {
+    height: 130px;
+    background: #fff;
+    border: none;
+}
+
+#copyright p {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+#copyright span {
+    height: 60px;
+    text-align: center;
+}

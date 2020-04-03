@@ -1,0 +1,129 @@
+.bgreg {
+    border-top: solid 1px #eee;
+}
+
+body {
+    background: #fff;
+}
+
+#regform {
+    display: block;
+    padding: 2.5em 1em;
+}
+
+#regform .item {
+    display: block;
+    padding: 1em 0;
+}
+
+#regform .item i {
+    display: block;
+    font-size: 1.3em;
+    color: #737373;
+    padding-bottom: .3em;
+    font-style: normal;
+}
+
+#regform .item i em {
+    font-size: .8em;
+    color: #737373;
+    padding-left: 1em;
+    font-style: normal;
+}
+
+#regform .item i em b {
+    font-weight: normal;
+    color: #f30;
+}
+
+#nickname {
+    display: block;
+    border: solid 1px #C9C9C9;
+    width: 48%;
+    font-size: 1.2em;
+    color: #000;
+    border-radius: .3em;
+    height: 2.5em;
+    line-height: 2.5em;
+    background: #fff;
+}
+
+#sex_0, #sex_1 {
+    width: 1.5em;
+    height: 1.5em;
+    position: relative;
+    top: .3em;
+    margin-right: .5em;
+}
+
+#regform .item label {
+    padding-right: 2em;
+    font-size: 1.2em;
+}
+
+#borndate {
+    width: 48%;
+    font-size: 1.2em;
+    height: 2.5em;
+    margin-right: .2em;
+    border: solid 1px #C9C9C9;
+    border-radius: .3em;
+}
+
+#degree, #clt_field {
+    width: 48%;
+    font-size: 1.2em;
+    height: 2.5em;
+    border: solid 1px #C9C9C9;
+    border-radius: .3em;
+}
+
+#btn-u-reg:focus {
+    outline: 0;
+}
+
+#btn-u-reg {
+    display: block;
+    width: 48%;
+    font-size: 1.5em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #55C860;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+
+#btn-u-reg:hover {
+    display: block;
+    width: 48%;
+    font-size: 1.5em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #50D25B;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+
+#copyright {
+    height: 130px;
+    background: #fff;
+    border: none;
+}
+
+#copyright p {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+#copyright span {
+    height: 60px;
+    text-align: center;
+}

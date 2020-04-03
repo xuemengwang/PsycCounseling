@@ -1,0 +1,764 @@
+body {
+    background: #f9f9f9;
+}
+
+#ask-top .pr {
+    display: block;
+    width: 1000px;
+    height: auto;
+    color: #BFBFBF;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+#ask-top .pr a.avatar {
+    float: left;
+    display: block;
+    background: #F8F8F8;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+#ask-top .pr a.avatar img {
+    display: block;
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+}
+
+#ask-top .pr .dr-info {
+    float: left;
+    display: block;
+    padding-left: 25px;
+    width: 800px;
+    line-height: 22px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+
+#ask-top .pr .dr-info .un {
+    font-size: 30px;
+    color: #000;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+}
+
+#ask-top .pr .dr-info a.un:hover {
+    text-decoration: none;
+}
+
+#ask-top .pr .dr-info i {
+    font-style: normal;
+    display: block;
+    padding-top: 7px;
+    color: #737373;
+}
+
+#ask-top .pr .dr-info em {
+    font-style: normal;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 10px 0;
+    color: #737373;
+}
+
+#ask-form {
+    display: block;
+    padding-top: 40px;
+    color: #737373;
+}
+
+#ask-form .tit {
+    display: block;
+    padding-bottom: 8px;
+    font-size: 18px;
+    width: 75%;
+}
+
+#ask-form .ask-in, #ask-form div .ask-p {
+    display: block;
+}
+
+#ask-form .ask-in label {
+    padding-left: 5px;
+    font-size: 15px;
+    color: #414141;
+    cursor: pointer;
+}
+
+#ask-form .ask-in label i {
+    font-style: normal;
+    font-size: 12px;
+    font-family: 宋体;
+    color: #737373;
+}
+
+#ask-form .synch {
+    width: 400px;
+    padding: 35px 0 0 0;
+    margin: 0 auto;
+}
+
+#ask-form .ask-p {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 5px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#ask-form .ask-p span {
+    border-bottom: solid 1px #eee;
+    font-size: 14px;
+    color: #414141;
+    background: #fff;
+    display: block;
+    padding: 2px 0 0 10px;
+}
+
+#ask-form .ask-p span select {
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 14px;
+    color: #414141;
+    width: 93%;
+    position: relative;
+    top: -0.5px;
+}
+
+#ask-form .ask-p .bdnone {
+    border: none;
+}
+
+#ask-form .tit span {
+    color: #414141;
+    float: left;
+}
+
+#ask-form .tit span em {
+    color: #a7a7a7;
+    font-size: 13px;
+    padding-left: 8px;
+    font-family: 宋体;
+    font-style: normal;
+}
+
+#ask-form .tit span .f30 {
+    color: #f30;
+}
+
+#ask-form .tit .self {
+    font-size: 16px;
+    padding-left: 5px;
+    color: #000;
+}
+
+#ask-form .tit .self em {
+    font-weight: normal;
+    font-family: 宋体;
+    font-style: normal;
+}
+
+#ask-form .tit .icon {
+    height: 25px;
+    width: 14px;
+    background-repeat: no-repeat;
+    background-position: -14px -51px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: -6px;
+}
+
+#ask-form .tit .q {
+    background-image: url(https://res.psy525.cn/pc/res/images/common/ask/quetion.png);
+    _background-image: url(https://res.psy525.cn/pc/res/images/common/ask/quetion.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    font-size: 20px;
+    color: #000;
+}
+
+#ask-form .tit i {
+    font-style: normal;
+    float: right;
+    font-size: 13px;
+    color: #737373;
+    position: relative;
+    top: 10px;
+}
+
+#ask-form .tit i em {
+    color: #4abb00;
+    padding-right: 3px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#clt_Title {
+    width: 96.5%;
+    height: 36px;
+    border: none;
+    font-family: 微软雅黑;
+    padding: 8px;
+    font-size: 14px;
+    color: #000;
+    padding-left: 15px;
+}
+
+#clt_Ans {
+    width: 100%;
+    height: 130px;
+    border: none;
+    border-radius: 0;
+    font-family: 微软雅黑;
+    line-height: 28px;
+    padding: 12px;
+    font-size: 14px;
+    color: #000;
+    padding-left: 15px;
+}
+
+#clt_Nickname {
+    width: 90%;
+    height: 40px;
+    border: none;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #000;
+    padding-left: 12px;
+}
+
+#mobile, #password, #dynpwd {
+    width: 88%;
+    height: 40px;
+    border: none;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color: #000;
+    padding-left: 12px;
+}
+
+#dynpwd {
+    width: 63%;
+    float: left;
+}
+
+#btn_SaveAsk {
+    display: block;
+    width: 75%;
+    font-size: 1.5em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #55C860;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+
+#btn_SaveAsk:hover {
+    display: block;
+    width: 75%;
+    font-size: 1.5em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background: #50D25B;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 微软雅黑;
+}
+
+#clt_Title:focus, #clt_Ans:focus, #clt_Nickname:focus, #ask-form .ask-p span select:focus, #mobile:focus, #password:focus, #dynpwd:focus {
+    outline: 0;
+}
+
+#clt_public {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 4px;
+}
+
+#regform .item {
+    display: block;
+    padding: .9em 0;
+}
+
+#regform .item i {
+    display: block;
+    color: #414141;
+    padding-bottom: .1em;
+    font-style: normal;
+    padding-left: .6em;
+    float: left;
+    font-size: 14px;
+}
+
+#regform .mcode i {
+    padding-top: .5em;
+}
+
+#regform .vdrop {
+    padding-bottom: 1em;
+}
+
+#regform #captcha {
+    float: left;
+}
+
+#regform .item a.send {
+    display: block;
+    width: 20%;
+    height: 3.2em;
+    line-height: 3.2em;
+    text-align: center;
+    background: #f5f5f5;
+    font-size: 1em;
+    color: #279F32;
+    border: solid 1px #7BC659;
+    border-radius: 100em;
+    float: left;
+    position: relative;
+}
+
+#regform .item a.send:hover {
+    display: block;
+    width: 20%;
+    height: 3.2em;
+    line-height: 3.2em;
+    text-align: center;
+    background: #fff;
+    font-size: 1em;
+    color: #279F32;
+    border: solid 1px #7BC659;
+    border-radius: 100em;
+    float: left;
+    position: relative;
+    text-decoration: none;
+}
+
+#regform .item a.off, #regform .item a.off:hover {
+    display: block;
+    width: 20%;
+    height: 3.2em;
+    line-height: 3.2em;
+    text-align: center;
+    background: #e2e2e2;
+    font-size: 1em;
+    color: #a7a7a7;
+    border: solid 1px #e2e2e2;
+    border-radius: 100em;
+    float: left;
+    position: relative;
+}
+
+#regform .item a i {
+    font-size: 1em;
+    display: inline;
+    font-style: normal;
+    line-height: normal;
+    height: auto;
+    width: auto;
+    padding: 0;
+    float: none;
+    padding-right: .2em;
+    font-weight: bold;
+    color: #f60;
+    letter-spacing: 0;
+}
+
+#regform .item a.send:focus, #btn-u-next:focus {
+    outline: 0;
+}
+
+#ask-form .ask-i {
+    display: block;
+    font-size: 12px;
+    color: red;
+    padding: 6px 0 6px 0;
+    background: #FFFCB7;
+    margin-left: 6px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=#D1D1D1, direction=120, strength=4);
+    -moz-box-shadow: 2px 2px 10px #D1D1D1;
+    -webkit-box-shadow: 2px 2px 10px #D1D1D1;
+    box-shadow: 2px 2px 10px #D1D1D1;
+}
+
+#ask-form .ask-i i {
+    font-style: normal;
+    background-image: url(https://res.psy525.cn/pc/res/images/common/i.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+#ask-form .c-a {
+    border: solid 1px #CFCFCF;
+    width: 75%;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#ask-form .c-a .fbd {
+    border-bottom: solid 1px #eee;
+}
+
+.askboxs {
+    margin: 0 auto;
+    width: 1000px;
+    height: auto;
+}
+
+.askboxs .ask-sucess {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.askboxs .ask-sucess img {
+    display: block;
+    width: 59px;
+    height: 54px;
+    float: left;
+}
+
+.askboxs .ask-sucess span {
+    display: block;
+    float: left;
+    padding-left: 20px;
+    width: 800px;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #737373;
+    line-height: 32px;
+}
+
+.askboxs .ask-sucess span b {
+    display: block;
+    font-size: 36px;
+    padding-bottom: 15px;
+    color: #414141;
+}
+
+.askboxs .ask-sucess span a {
+    color: #279F32;
+    padding: 5px;
+}
+
+.askboxs .ask-sucess span a:hover {
+    color: #fff;
+    background: #5DC366;
+    text-decoration: none;
+}
+
+.askboxs .tit {
+    display: block;
+    font-size: 20px;
+    color: #000;
+    padding: 50px 10px 10px 80px;
+}
+
+.askboxs div {
+    padding: 8px;
+    display: block;
+    width: 800px;
+    padding: 20px 10px 15px 20px;
+    margin: 0 auto;
+    border: solid 1px #eee;
+    border-bottom: solid 1px #C7C7C7;
+    border-radius: 16px;
+}
+
+.askboxs div .ask-f {
+    display: block;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.askboxs div .ask-f i {
+    float: left;
+    display: block;
+    width: 90px;
+    line-height: 32px;
+    font-style: normal;
+    color: #a7a7a7;
+}
+
+.askboxs div .ask-f span {
+    float: left;
+    display: block;
+    width: 700px;
+}
+
+.askboxs div .ask-f span b {
+    font-size: 20px;
+    padding: 3px;
+}
+
+.askboxs div .ask-f span em {
+    color: #a7a7a7;
+    font-style: normal;
+    font-size: 12px;
+    font-family: 宋体;
+    padding: 15px 10px 15px 10px;
+    background: #eee;
+    position: relative;
+    top: -2px;
+}
+
+.askboxs div .ask-f span #clt_pwd, .askboxs .ask-f span #clt_nickname {
+    width: 180px;
+    height: 30px;
+    border: solid 1px #CFCFCF;
+    border-radius: 6px;
+    font-family: 微软雅黑;
+    padding: 5px;
+    font-size: 16px;
+    color: #000;
+}
+
+.askboxs div .ask-f span #btn_ModifyUsernamePwd {
+    display: block;
+    width: 150px;
+    font-size: 20px;
+    height: 45px;
+}
+
+.askboxs .ask-dr {
+    display: block;
+    padding: 10px 10px 10px 80px;
+    font-size: 15px;
+}
+
+.askboxs .ask-dr li {
+    float: left;
+    display: block;
+    width: 250px;
+    border: solid 1px #eee;
+    border-bottom: solid 1px #C7C7C7;
+    border-radius: 6px;
+    margin-right: 8px;
+    padding: 10px;
+}
+
+.askboxs .ask-dr li .avatar {
+    float: left;
+}
+
+.askboxs .ask-dr li .avatar img {
+    display: block;
+    width: 73px;
+    height: 73px;
+    border-radius: 100px;
+    border: solid 1px #eee;
+    overflow: hidden;
+}
+
+.askboxs .ask-dr li span {
+    display: block;
+    float: left;
+    padding-left: 10px;
+    line-height: 28px;
+    font-size: 13px;
+    width: 160px;
+    height: 80px;
+    color: #737373;
+    overflow: hidden;
+}
+
+.askboxs .ask-dr li span .un {
+    font-size: 18px;
+    color: #414141;
+}
+
+.askboxs .use {
+    display: block;
+    padding: 10px 10px 20px 80px;
+}
+
+.askboxs .use a {
+    padding: 10px 50px 10px 50px;
+    display: block;
+    float: left;
+    border: solid 1px #eee;
+    border-bottom: solid 1px #C7C7C7;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 16px;
+    color: #414141;
+}
+
+.askboxs .use a:hover {
+    padding: 10px 50px 10px 50px;
+    display: block;
+    float: left;
+    border: solid 1px #eee;
+    border-bottom: solid 1px #C7C7C7;
+    border-radius: 6px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    background: #eee;
+    color: #414141;
+}
+
+#tran-tit {
+    display: block;
+    font-size: 16px;
+    color: #414141;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-left: 16px;
+    line-height: 32px;
+}
+
+#trans-list {
+    display: block;
+}
+
+#trans-list li.item {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 165px;
+    height: 250px;
+    background: #fff;
+    cursor: pointer;
+    margin: 8px;
+    padding: 15px;
+    border: solid 5px #E4E4E4;
+    border-radius: 10px;
+}
+
+#trans-list li.item img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    overflow: hidden;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#trans-list li.item span {
+    display: block;
+    padding-top: 10px;
+    line-height: 24px;
+    font-size: 13px;
+    border-top: solid 1px #eee;
+    margin-top: 10px;
+    color: #a7a7a7;
+}
+
+#trans-list li.item span b {
+    font-size: 20px;
+    color: #737373;
+}
+
+#trans-list li.item a.bio {
+    font-size: 12px;
+    font-family: 宋体;
+    color: #a7a7a7;
+}
+
+#trans-list li.on {
+    border: solid 5px #5DC366;
+}
+
+#trans-list li.ov {
+    border: solid 5px #D1D1D1;
+}
+
+#trans-list li.more {
+    display: block;
+    text-align: right;
+}
+
+#trans-list li.more a {
+    padding: 5px 20px 5px 20px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#trans-list li.more a:hover {
+    padding: 5px 20px 5px 20px;
+    font-size: 14px;
+}
+
+#trans-list li.no {
+    display: block;
+    padding: 10px;
+    color: #a7a7a7;
+}
+
+.askinfo {
+    display: block;
+    padding: 0 0 25px 0;
+    color: #a7a7a7;
+    font-size: 12px;
+    font-family: 宋体;
+}
+
+.askinfo b {
+    font-size: 12px;
+    font-family: 宋体;
+}
+
+#copyright {
+    height: 130px;
+    background: #fff;
+    border: none;
+}
+
+#copyright p {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+#copyright span {
+    height: 60px;
+    text-align: center;
+}
+
+.remark {
+    display: block;
+    width: auto;
+    height: auto;
+    line-height: 30px;
+    background: #eee;
+    padding: 25px 0 25px 80px;
+    font-size: 1.4em;
+    color: #000;
+}
+
+.remark img {
+    width: 280px;
+    height: 280px;
+    display: block;
+}
+
+.remark i {
+    font-style: normal;
+    font-size: .8em;
+    color: #f30;
+    display: block;
+}

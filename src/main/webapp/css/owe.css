@@ -1,0 +1,1718 @@
+.split {
+    display: block;
+    clear: both;
+    padding: 15px;
+}
+
+#a-tab {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+#a-tab a {
+    padding: 8px 18px 8px 18px;
+    border-radius: 20px;
+    background: #EDF9E7;
+    margin-right: 10px;
+    color: #279F32;
+    border: solid 1px #DBE9D6;
+}
+
+#a-tab a.on {
+    padding: 8px 18px 8px 18px;
+    border-radius: 20px;
+    background: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#a-tab a:hover {
+    padding: 8px 18px 8px 18px;
+    border-radius: 20px;
+    background: #fff;
+    text-decoration: none;
+}
+
+#g-tab {
+    display: block;
+    border-bottom: solid 1px #E6E6E6;
+    padding-top: 0;
+    width: 95%;
+    height: 43px;
+    margin: 0 auto;
+    *width: 950px;
+}
+
+#g-tab a {
+    font-size: 15px;
+    float: left;
+    display: block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: solid 1px #E6E6E6;
+    border-bottom: none;
+    position: relative;
+    bottom: -2px;
+    margin-right: 8px;
+    background: #fff;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#g-tab a.on {
+    font-size: 15px;
+    float: left;
+    display: block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: solid 1px #E6E6E6;
+    border-bottom: none;
+    position: relative;
+    bottom: -1px;
+    border-top: solid 3px #279F32;
+    margin-right: 8px;
+    background: #fff;
+    font-weight: bold;
+}
+
+#g-tab a:hover {
+    text-decoration: none;
+}
+
+#ask-ad {
+    display: block;
+    width: 303px;
+    height: 150px;
+}
+
+#ask-ad a {
+    width: 303px;
+    height: 150px;
+    display: block;
+    background-image: url(https://res.psy525.cn/pc/res/images/common/ask_ad.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.a-tit {
+    display: block;
+    width: 998px;
+}
+
+.a-tit a {
+    font-size: 24px;
+    padding: 15px;
+    display: block;
+    width: 150px;
+    padding-left: 25px;
+    padding-bottom: 5px;
+}
+
+.a-tit i {
+    display: block;
+    font-style: normal;
+    padding-left: 25px;
+    font-size: 15px;
+    color: #737373;
+    text-indent: 30px;
+    line-height: 25px;
+}
+
+.c_l {
+    float: left;
+    display: block;
+    width: 315px;
+    height: auto;
+    padding-left: 25px;
+}
+
+.c_r {
+    float: right;
+    display: block;
+    width: 600px;
+    height: auto;
+    padding-right: 25px;
+}
+
+.c_l i {
+    color: #A5A5A5;
+    padding: 5px;
+    display: block;
+    text-indent: 30px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.go_btn {
+    display: block;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    color: #47B61A;
+}
+
+#citybrother, #citybrother2 {
+    display: block;
+    width: 663px;
+    height: auto;
+    padding: 0 5px 10px 5px;
+}
+
+#citybrother a, #citybrother2 a {
+    display: block;
+    width: 110px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    float: left;
+    overflow: hidden;
+    color: #737373;
+    font-size: 12px;
+    font-family: 宋体;
+}
+
+#citybrother a:hover, #citybrother2 a:hover {
+    background: #3AB145;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+}
+
+#j-vcode {
+    padding: 25px;
+}
+
+#j-vcode i, #j-vcode #veritycode, #j-vcode #changecode {
+    font-style: normal;
+    float: left;
+}
+
+#j-vcode i {
+    display: block;
+    width: 160px;
+    font-size: 15px;
+    color: #737373;
+    padding-left: 5px;
+    line-height: 30px;
+}
+
+#veritycode {
+    width: 100px;
+    height: 35px;
+    display: block;
+    border: 1px solid #C9C9C9;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+#a2, #a3 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#deplist {
+    display: block;
+    position: relative;
+    top: -15px;
+}
+
+#deplist li {
+    border-bottom: dotted 1px #ECECEC;
+    padding-bottom: 10px;
+    display: block;
+    height: auto;
+}
+
+#deplist li .dep_icon {
+    float: left;
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+#deplist li .dep_icon a {
+    text-align: center;
+    display: block;
+    color: #979797;
+    display: block;
+    width: 75px;
+    height: 60px;
+}
+
+#deplist li .dep_txt {
+    float: left;
+    display: block;
+    width: 510px;
+    padding-top: 8px;
+}
+
+#deplist li .dep_txt .dep_body {
+    color: #a7a7a7;
+    display: block;
+    padding-top: 5px;
+}
+
+#deplist li .dep_txt a {
+    color: #414141;
+    padding: 3px;
+}
+
+#deplist li .dep_txt a:hover {
+    text-decoration: underline;
+}
+
+#deplist li .dep_txt a.type {
+    color: #737373;
+    padding: 3px;
+}
+
+#deplist li .dep_txt a.type:hover {
+    text-decoration: underline;
+}
+
+#deplist li .dep_txt a.title {
+    color: #414141;
+    padding: 3px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#deplist li .dep_txt a.title:hover {
+    text-decoration: underline;
+}
+
+#btn_owe {
+    font-weight: bold;
+}
+
+.oweCathItem {
+    display: block;
+    width: 235px;
+    float: left;
+    cursor: pointer;
+}
+
+#owelist {
+    display: block;
+    padding: 10px;
+    float: right;
+}
+
+#owelist li {
+    border-bottom: dotted 1px #D3D3D3;
+    padding: 3px;
+    height: 20px;
+}
+
+#owelist li.otit {
+    background: none;
+    text-align: left;
+    padding-left: 0;
+    padding-top: 0;
+    height: 20px;
+}
+
+#owelist li.otit span {
+    width: 75px;
+}
+
+#owelist li span {
+    float: left;
+    display: block;
+    width: 75px;
+}
+
+#owelist li label {
+    float: left;
+    display: block;
+    width: 220px;
+}
+
+#owelist li label a {
+    display: block;
+    width: 220px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#owelist li span a {
+    display: block;
+    width: 75px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#owelist li b {
+    display: block;
+    font-weight: normal;
+    color: #a7a7a7;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    float: left;
+    width: 90px;
+}
+
+#owelist li.loadOData {
+    color: #a7a7a7;
+    background: none;
+    border: none;
+}
+
+#owetop {
+    clear: both;
+    display: block;
+    width: 998px;
+}
+
+#owebottom {
+    display: block;
+    height: 130px;
+    width: 998px;
+    clear: both;
+}
+
+#owebottom p {
+    display: block;
+    width: 998px;
+    height: 30px;
+    clear: both;
+}
+
+
+#owefun {
+    display: block;
+    width: auto;
+}
+
+#owefun a {
+    border: solid 1px #eee;
+    border-bottom: none;
+    display: block;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    margin-right: 5px;
+}
+
+#owefun a:hover {
+    border: solid 1px #eee;
+    border-top: solid 1px #279F32;
+    text-decoration: none;
+    border-bottom: none;
+    display: block;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    color: #414141;
+}
+
+#owefun a.write {
+    border: solid 1px #eee;
+    text-decoration: none;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    background-image: url(https://res.psy525.cn/pc/res/images/common/edit.gif);
+    background-position: 14px center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#owefun a.write:hover {
+    border: solid 1px #eee;
+    border-top: solid 1px #279F32;
+    text-decoration: none;
+    border-bottom: none;
+    float: left;
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+}
+
+#owefun a.onwrite {
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    border: solid 1px #eee;
+    border-bottom: none;
+    border-top: solid 1px #279F32;
+    text-decoration: none;
+    background-image: url(https://res.psy525.cn/pc/res/images/common/edit.gif);
+    background-position: 14px center;
+    background-repeat: no-repeat;
+    color: #279F32;
+}
+
+#owefun a.on {
+    border: solid 1px #eee;
+    border-top: solid 1px #279F32;
+    text-decoration: none;
+    border-bottom: none;
+    display: block;
+    width: 130px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+}
+
+#owe {
+    display: block;
+    border: solid 1px #e0e0e0;
+    width: 99.6%;
+    overflow: hidden;
+}
+
+.oweItem {
+    cursor: move;
+    width: 235px;
+    position: absolute;
+}
+
+#mask {
+    filter: alpha(Opacity=35);
+    opacity: .35;
+    background: #000;
+    position: absolute;
+}
+
+#a7 {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    padding-left: 15px;
+}
+
+.owe_bg1_top {
+    color: #497A46;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/1/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg1_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg1_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg1_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg1_middle {
+    color: #497A46;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/1/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg1_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg1_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg1_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/1/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg1_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg1_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg1_bottom label a {
+    color: #497A46;
+}
+
+.owe_bg1_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg1_bottom label span {
+    color: #497A46;
+    font-size: 11px;
+    display: block;
+}
+
+.owe_bg2_top {
+    color: #8D2828;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/2/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg2_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg2_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg2_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg2_middle {
+    color: #8D2828;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/2/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg2_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg2_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg2_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/2/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg2_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg2_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg2_bottom label a {
+    color: #8D2828;
+}
+
+.owe_bg2_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg2_bottom label span {
+    color: #8D2828;
+    font-size: 11px;
+    display: block;
+}
+
+.owe_bg3_top {
+    color: #723838;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/3/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg3_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg3_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg3_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg3_middle {
+    color: #723838;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/3/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg3_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg3_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg3_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/3/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg3_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg3_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg3_bottom label a {
+    color: #723838;
+}
+
+.owe_bg3_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg3_bottom label span {
+    font-size: 11px;
+    display: block;
+    color: #723838;
+}
+
+.owe_bg4_top {
+    color: #5B307E;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/4/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg4_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg4_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg4_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg4_middle {
+    color: #5B307E;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/4/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg4_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg4_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg4_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/4/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg4_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg4_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg4_bottom label a {
+    color: #5B307E;
+}
+
+.owe_bg4_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg4_bottom label span {
+    font-size: 11px;
+    display: block;
+    color: #5B307E;
+}
+
+.owe_bg5_top {
+    color: #22455F;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/5/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg5_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg5_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg5_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg5_middle {
+    color: #22455F;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/5/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg5_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg5_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg5_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/5/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg5_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg5_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg5_bottom label a {
+    color: #22455F;
+}
+
+.owe_bg5_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg5_bottom label span {
+    font-size: 11px;
+    display: block;
+    color: #22455F;
+}
+
+.owe_bg6_top {
+    color: #7C5A16;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/6/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg6_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg6_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg6_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg6_middle {
+    color: #7C5A16;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/6/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg6_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg6_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg6_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/6/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg6_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg6_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg6_bottom label a {
+    color: #7C5A16;
+}
+
+.owe_bg6_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg6_bottom label span {
+    font-size: 11px;
+    display: block;
+    color: #7C5A16;
+}
+
+.owe_bg7_top {
+    color: #564B30;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/7/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg7_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg7_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg7_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg7_middle {
+    color: #564B30;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/7/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg7_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg7_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg7_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/7/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg7_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg7_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg7_bottom label a {
+    color: #564B30;
+}
+
+.owe_bg7_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg7_bottom label span {
+    font-size: 11px;
+    display: block;
+    color: #564B30;
+}
+
+.owe_bg8_top {
+    color: #3E3E3E;
+    display: block;
+    width: 235px;
+    height: 66px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/8/scrip_top.gif);
+    background-position: left top;
+    background-repeat: no-repeat;
+}
+
+.owe_bg8_top span {
+    float: left;
+    display: block;
+    width: 181px;
+    overflow: hidden;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.owe_bg8_top label {
+    float: left;
+    display: block;
+    width: 15px;
+    padding-top: 44px;
+}
+
+.owe_bg8_top label a.oweClose {
+    display: block;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.owe_bg8_middle {
+    color: #3E3E3E;
+    display: block;
+    width: 235px;
+    height: auto;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/8/scrip_middle.gif);
+    background-position: left top;
+    background-repeat: repeat-y;
+    font-family: 宋体;
+}
+
+.owe_bg8_middle b {
+    display: block;
+    padding-left: 27px;
+}
+
+.owe_bg8_middle span {
+    display: block;
+    padding: 10px;
+    padding-left: 27px;
+    padding-top: 0;
+}
+
+.owe_bg8_bottom {
+    display: block;
+    width: 235px;
+    height: 50px;
+    background-image: url(https://res.psy525.cn/pc/res/images/owe/bg/8/scrip_bottom.gif);
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+.owe_bg8_bottom img {
+    float: left;
+    padding-left: 20px;
+}
+
+.owe_bg8_bottom label {
+    float: right;
+    display: block;
+    width: 155px;
+    height: 50px;
+    overflow: hidden;
+    text-align: right;
+    font-size: 14px;
+    line-height: 16px;
+    padding-right: 25px;
+    font-family: 宋体;
+}
+
+.owe_bg8_bottom label a {
+    color: #3E3E3E;
+}
+
+.owe_bg8_bottom label a:hover {
+    text-decoration: underline;
+}
+
+.owe_bg8_bottom label span {
+    font-size: 11px;
+    display: block;
+    color: #3E3E3E;
+}
+
+#owe_list {
+    display: block;
+    padding: 15px;
+    width: 955px;
+}
+
+#owe_list li {
+    border-bottom: dotted 1px #D3D3D3;
+    padding: 3px;
+    height: 40px;
+    _height: 27px;
+    *height: 27px;
+    background: #fff;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-bottom: 6px;
+}
+
+#owe_list li.tit {
+    background: #fff;
+}
+
+#owe_list li.tit span, #owe_list li.tit label, #owe_list li.tit b.time {
+    padding-top: 5px;
+    color: #a7a7a7;
+}
+
+#owe_list li span {
+    float: left;
+    display: block;
+    width: 110px;
+    color: #a7a7a7;
+    overflow: hidden;
+}
+
+#owe_list li span a {
+    display: block;
+    width: 110px;
+    overflow: hidden;
+    color: #000;
+}
+
+#owe_list li span a:hover {
+    text-decoration: underline;
+}
+
+#owe_list li span a img {
+    vertical-align: middle;
+    border-radius: 3px;
+    margin-right: 3px;
+    width: 18px;
+    height: 18px;
+}
+
+#owe_list li b.fun a, #owe_list li a {
+    color: #279F32;
+}
+
+#owe_list li b.fun a:hover, #owe_list li a:hover {
+    text-decoration: underline;
+}
+
+#owe_list li label {
+    float: left;
+    display: block;
+    width: 530px;
+}
+
+#owe_list li label a {
+    display: block;
+    width: 530px;
+    height: 20px;
+    overflow: hidden;
+    color: #000;
+}
+
+#owe_list li label a:hover {
+    text-decoration: underline;
+}
+
+#owe_list li span a {
+    display: block;
+    width: 90px;
+    height: 20px;
+    overflow: hidden;
+}
+
+#owe_list li b.fun {
+    float: left;
+    width: 30px;
+    font-weight: normal;
+    color: #279F32;
+}
+
+#owe_list li b.time {
+    display: block;
+    font-weight: normal;
+    color: #a7a7a7;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 110px;
+    padding-left: 10px;
+}
+
+.owePerview {
+    width: 235px;
+    float: left;
+}
+
+#oweform {
+    width: 680px;
+    background: #eee;
+    margin: 15px;
+    _margin: 5px;
+    padding: 15px;
+    float: right;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.oweform-li {
+    display: block;
+    width: 670px;
+    height: auto;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.oweform-li i {
+    float: left;
+    display: block;
+    width: 90px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    color: #737373;
+}
+
+.oweform-li span {
+    float: left;
+    display: block;
+    width: 550px;
+    font-style: normal;
+}
+
+#clt_Sign, #clt_Recipient {
+    width: 250px;
+    height: 24px;
+    line-height: 24px;
+    border: solid 1px #C9C9C9;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#clt_Contents {
+    width: 250px;
+    height: 130px;
+    display: block;
+    border: solid 1px #C9C9C9;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#btn_owesubmit {
+    width: 150px;
+    height: 50px;
+    font-size: 22px;
+}
+
+#btn_Cancel {
+    height: 30px;
+}
+
+#oweColorSet a {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    border: solid 2px #DBEBDA;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+#oweColorSet a.color1 {
+    background: #8CF786;
+}
+
+#oweColorSet a.color2 {
+    background: #F49292;
+}
+
+#oweColorSet a.color3 {
+    background: #E8B7B7;
+}
+
+#oweColorSet a.color4 {
+    background: #D3AEF0;
+}
+
+#oweColorSet a.color5 {
+    background: #9FD7FF;
+}
+
+#oweColorSet a.color6 {
+    background: #FFDF9F;
+}
+
+#oweColorSet a.color7 {
+    background: #DFD6C0;
+}
+
+#oweColorSet a.color8 {
+    background: #EFEFEF;
+}
+
+#oweIconSet a {
+    display: block;
+    float: left;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    border: solid 2px #DBEBDA;
+    margin-right: 5px;
+    line-height: 35px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+#oweColorSet a:hover, #oweIconSet a:hover, #oweColorSet a.on, #oweIconSet a.on {
+    border: solid 2px #f30;
+}
+
+#gameremark {
+    color: #737373;
+    padding: 5px;
+    display: block;
+    text-indent: 25px;
+}
+
+#gamelist {
+    display: block;
+    position: relative;
+    top: -15px;
+}
+
+#gamelist li {
+    display: block;
+    border-bottom: solid 1px #ECECEC;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    height: 135px;
+    width: 300px;
+    float: left;
+    overflow: hidden;
+}
+
+#gamelist li .game_icon {
+    float: left;
+    display: block;
+    width: 84px;
+    height: 85px;
+}
+
+#gamelist li .game_icon a {
+    padding: 5px;
+    border: solid 1px #E1E1E1;
+    display: block;
+    border-radius: 5px;
+}
+
+#gamelist li .game_icon a img {
+    width: 73px;
+    height: 73px;
+    border-radius: 5px;
+}
+
+#gamelist li .game_txt {
+    float: left;
+    display: block;
+    width: 190px;
+    padding-left: 12px;
+    height: 100px;
+    line-height: 20px;
+    font-size: .8em;
+}
+
+#gamelist li .game_txt a {
+    color: #414141;
+    padding: 3px;
+    font-size: 16px;
+}
+
+#gamelist li .game_txt a:hover {
+    text-decoration: underline;
+}
+
+#gamelist li .game_txt .gamefun {
+    color: #a7a7a7;
+}
+
+#gamelist li .game_txt .gamefun a {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#gamelist li .game_txt .time {
+    display: block;
+}
+
+#gamelist li .game_txt .time a {
+    color: #737373;
+    font-weight: normal;
+    padding-right: 5px;
+    font-size: 1em;
+}
+
+#gamelist li .btn_startgame {
+    display: block;
+    width: 85px;
+    height: 30px;
+    background: #47B61A;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+#gamelist li .btn_startgame:hover {
+    display: block;
+    width: 85px;
+    height: 30px;
+    background: #50CA1F;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#gamelist li.loadGameListData {
+    color: #a7a7a7;
+    background: none;
+    border: none;
+}
+
+#qq_z, #qq_s {
+    float: left;
+    display: block;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+#qq_s {
+    width: 140px;
+    display: block;
+}
+
+#fx {
+    position: absolute;
+}
+
+#fx p {
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+body {
+    background: #fff;
+}
+
+.title {
+    margin: 60px 0 0 0;
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+.title a:hover {
+    text-decoration: none;
+}
+
+a.btn {
+    display: block;
+    width: 130px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background: #2FDC37;
+    border-radius: 100px;
+    text-decoration:none;
+}
+
+.owedes {
+    display: block;
+    font-size: 1em;
+    color: #737373;
+    padding: 1em 0 2em 0;
+}
+
+#owe-head {
+    display: block;
+    padding: 2em 0 0 0;
+}
+
+#owe-head .owe-tit {
+    font-size: 2.5em;
+    padding-bottom: .6em;
+    font-weight: bold;
+}
+
+#owe-head .owe-des {
+    display: block;
+    padding: 0 0 .4em 0;
+    font-size: 16px;
+    color: #a7a7a7;
+    border-bottom: solid 1px #e5e5e5;
+    padding-bottom: .8em;
+}
+
+.owe-txt {
+    display: block;
+    padding: 2em 0 0 0;
+    font-size: 1.2em;
+    color: #414141;
+    line-height: 1.9em;
+    text-indent: 2em;
+}
+
+#owe-to, #owe-text, #owe-from {
+    display: inline-block;
+    margin-bottom: 20px;
+    border: solid 1px #C9C9C9;
+    font-size: 1.2em;
+    color: #000;
+    border-radius: .3em;
+    height: 35px;
+    line-height: 2em;
+    background: #fff;
+}

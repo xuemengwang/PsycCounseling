@@ -1,0 +1,719 @@
+.bg1 {
+    background: #EBEBEB;
+}
+
+.bg2 {
+    background: #E2E2E2;
+}
+
+.bg4 {
+    background: #DFDFDF;
+}
+
+.pd {
+    display: block;
+    padding: 30px 0 30px 0;
+}
+
+.channel-tit {
+    font-size: 36px;
+    display: block;
+    font-weight: normal;
+}
+
+.channel-remark {
+    display: block;
+    padding: 15px 0 15px 0;
+    font-size: 12px;
+    font-family: 宋体;
+    color: #a7a7a7;
+}
+
+#channel-menu {
+    display: block;
+    border-bottom: solid 1px #D8D8D8;
+    padding: 15px 0 10px 0;
+    height: 27px;
+}
+
+#channel-menu .tab {
+    display: block;
+    float: left;
+    padding-right: 20px;
+}
+
+#channel-menu .tab a {
+    display: block;
+    padding: 8px 10px 8px 10px;
+    font-size: 18px;
+    color: #a7a7a7;
+    position: relative;
+    top: -3px;
+}
+
+#channel-menu .tab a:hover {
+    display: block;
+    padding: 8px 10px 8px 10px;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+#channel-menu .tab a.on {
+    display: block;
+    padding: 8px 10px 8px 10px;
+    font-size: 18px;
+    color: #414141;
+    border-bottom: solid 1px #1DB12B;
+}
+
+#channel-menu .order {
+    display: block;
+    float: right;
+    padding-left: 15px;
+}
+
+#channel-menu .order a {
+    display: block;
+    padding: 8px 20px 8px 20px;
+    color: #a7a7a7;
+    border: solid 1px #D8D8D8;
+    border-bottom: none;
+    position: relative;
+    top: 1px;
+}
+
+#channel-menu .order a:hover {
+    display: block;
+    padding: 8px 20px 8px 20px;
+    color: #000;
+    border: solid 1px #D8D8D8;
+    border-bottom: none;
+    position: relative;
+    top: 1px;
+    text-decoration: none;
+    background: #F0F0F0;
+}
+
+#channel-tab {
+    display: block;
+    background: #A8A8A8;
+    padding: 1px;
+    width: 160px;
+    height: 25px;
+    margin: 15px 0 15px 0;
+}
+
+#channel-tab a {
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #E4E4E4;
+}
+
+#channel-tab a.on, #channel-tab a.on:hover {
+    background: #6ED477;
+    color: #fff;
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+#channel-tab a:hover {
+    font-size: 12px;
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    display: block;
+    float: left;
+    color: #fff;
+    text-decoration: none;
+    background: #B3B3B3;
+}
+
+#channel-tab a i {
+    font-style: normal;
+    font-size: 12px;
+    color: #a7a7a7;
+    font-family: 宋体;
+}
+
+#clist {
+    display: block;
+    padding-bottom: 2em;
+}
+
+#clist li {
+    display: block;
+    padding: 2em;
+    background: #f9f9f9;
+    margin-bottom: .8em;
+}
+
+#clist li a.tit {
+    display: block;
+    font-size: 22px;
+    color: #000;
+    padding: 5px 0 5px 0;
+}
+
+#clist li a.tit:hover {
+    display: block;
+    font-size: 22px;
+    color: #279F32;
+    text-decoration: none;
+}
+
+#clist li .txt {
+    display: block;
+    color: #a7a7a7;
+    font-size: 14px;
+    padding: 5px 0 5px 0;
+}
+
+#clist li .remark {
+    display: block;
+    color: #C3C3C3;
+    font-size: 12px;
+    padding: 5px 0 5px 0;
+    font-family: 宋体;
+}
+
+#clist li .remark i {
+    font-style: normal;
+    float: left;
+}
+
+#clist li .remark i a {
+    color: #737373;
+    padding: 3px;
+}
+
+#clist li .remark b {
+    padding: 3px;
+    color: #f30;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+#clist li .remark em {
+    font-style: normal;
+    float: right;
+}
+
+.split {
+    display: block;
+    clear: both;
+    padding: 5px;
+}
+
+#ztlist {
+    display: block;
+    padding-top: 20px;
+}
+
+#ztlist .ztbox {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#ztlist .ztbox .ztboxsub {
+    display: block;
+    background: #f9f9f9;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+
+#ztlist .ztbox .ztboxsub .subztlist {
+    background: #fff;
+}
+
+#ztlist .ztbox .ztboxsub .caselist ul li a {
+    width: 370px;
+    color: #000;
+}
+
+#ztlist .ztbox .ztboxsub .caselist ul li a:hover {
+    width: 370px;
+}
+
+#ztlist .ztbox h2 {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: solid 1px #e0e0e0;
+}
+
+#ztlist .ztbox h2 a {
+    padding: 15px 0;
+    font-size: 28px;
+    color: #414141;
+}
+
+#ztlist .ztbox h2 a:hover {
+    padding: 15px 0;
+    font-size: 28px;
+    color: #279F32;
+    text-decoration: none;
+}
+
+#ztlist .ztbox .c_remark {
+    display: block;
+    padding: 15px 0;
+    color: #a7a7a7;
+    text-indent: 25px;
+    font-family: 宋体;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.subztlist {
+    display: block;
+    padding: 10px 10px 10px 20px;
+}
+
+.subztlist ul li {
+    float: left;
+    display: block;
+    padding-right: 15px;
+    height: 20px;
+    width: 128px;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.subztlist ul li a {
+    background-image: url(https://res.psy525.cn/pc/res/images/common/arrow_right.gif);
+    background-position: left 10px;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-left: 10px;
+    color: #000;
+}
+
+.subztlist ul li a:hover {
+    background-image: url(https://res.psy525.cn/pc/res/images/common/arrow_right.gif);
+    background-position: left 10px;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-left: 10px;
+    color: #279F32;
+}
+
+.subztlist ul li a.more {
+    background: none;
+    color: #a7a7a7;
+    position: relative;
+    left: -10px;
+}
+
+.subztlist ul li a.more:hover {
+    background: none;
+    position: relative;
+    left: -10px;
+    color: #000;
+}
+
+.caselist {
+    display: block;
+    padding: 15px 20px 15px 20px;
+}
+
+.caselist ul li {
+    float: left;
+    display: block;
+    padding-right: 60px;
+    padding-bottom: 2px;
+}
+
+.caselist ul li a {
+    display: block;
+    width: 395px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    color: #000;
+    font-size: 16px;
+}
+
+.caselist ul li a:hover {
+    display: block;
+    width: 395px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    color: #000;
+    font-size: 16px;
+}
+
+.caselist a.more {
+    display: block;
+    padding: 8px;
+    background: #f9f9f9;
+    color: #a7a7a7;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    height: 26px;
+    margin-top: 10px;
+}
+
+.caselist a.more:hover {
+    display: block;
+    padding: 8px;
+    background: #fff;
+    color: #a7a7a7;
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    height: 26px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.caselist ul li.caseline {
+    clear: both;
+    display: block;
+    border-bottom: dashed 1px #E4E4E4;
+    width: 820px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.caseview ul li a, .caseview ul li a:hover {
+    display: block;
+    width: 380px;
+}
+
+.subzttit {
+    display: block;
+    clear: both;
+    margin: 15px;
+    border-bottom: solid 1px #eee;
+    height: 30px;
+    padding-top: 10px;
+}
+
+.subzttit a.tit {
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+
+.subzttit a.tit:hover {
+    display: block;
+    float: left;
+    font-size: 18px;
+    color: #279F32;
+    text-decoration: none;
+}
+
+.subzttit a.more {
+    display: block;
+    float: right;
+    font-size: 12px;
+    color: #a7a7a7;
+}
+
+.titname b {
+    font-size: 32px;
+    height: 70px;
+    line-height: 70px;
+    display: block;
+    font-weight: normal;
+    text-align: center;
+}
+
+.titview {
+    padding: 0 0 5px 0;
+    border-bottom: dotted 1px #D5D5D5;
+    font-size: 18px;
+    color: #a7a7a7;
+    display: block;
+    margin: 0 40px 0 40px;
+}
+
+.ztcg {
+    display: block;
+}
+
+.ztcg b {
+    font-size: 18px;
+    padding: 5px;
+    color: #414141;
+    display: block;
+    border-bottom: solid 1px #E4E4E4;
+    font-weight: normal;
+}
+
+.ztcglist {
+    display: block;
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+.ztcglist ul li {
+    float: left;
+    display: block;
+    padding-right: 10px;
+    height: 25px;
+    width: 180px;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.ztcglist ul li a {
+    background-image: url(https://res.psy525.cn/pc/res/images/common/arrow_right.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #a7a7a7;
+}
+
+.ztcglist ul li a:hover {
+    background-image: url(https://res.psy525.cn/pc/res/images/common/arrow_right.gif);
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #000;
+    text-decoration: underline;
+}
+
+#ztnavi {
+    display: block;
+    width: 1000px;
+    height: 25px;
+    padding: 20px 0 0 0;
+    font-size: 14px;
+    color: #a7a7a7;
+}
+
+#ztnavi a {
+    color: #a7a7a7;
+}
+
+#ztnavi a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+#a3 {
+    display: block;
+    border: none;
+}
+
+#a4 {
+    margin-top: 8px;
+    display: block;
+}
+
+#rel-list {
+    padding: 30px 0 30px 0;
+    display: block;
+    width: 640px;
+    float: left;
+}
+
+#rel-list li {
+    display: block;
+    padding: 10px 0 10px 0;
+    border-bottom: dotted 1px #DBDBDB;
+}
+
+#rel-list .tit {
+    color: #737373;
+    font-size: 28px;
+    border-bottom: solid 1px #DBDBDB;
+    margin-bottom: 10px;
+}
+
+#rel-list .tit a {
+    font-size: 14px;
+    padding: 10px;
+    color: #a7a7a7;
+}
+
+#rel-list .tit a:hover {
+    font-size: 14px;
+    padding: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+#rel-list .item a.title {
+    display: block;
+    float: left;
+    width: 450px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #414141;
+}
+
+#rel-list .item a.title:hover {
+    display: block;
+    float: left;
+    width: 450px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    font-size: 18px;
+    color: #000;
+}
+
+#rel-list .item i {
+    display: block;
+    float: left;
+    width: 160px;
+    padding-left: 30px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    font-size: 13px;
+    font-style: normal;
+    color: #a7a7a7;
+}
+
+#rel-list .item i a {
+    color: #a7a7a7;
+    padding: 2px;
+    font-weight: normal;
+}
+
+#citydrlist {
+    float: right;
+    display: block;
+    padding: 30px 0 10px 0;
+}
+
+.h-tit-r {
+    background: none;
+}
+
+#citydr-list li {
+    border-bottom: dotted 1px #CACACA;
+}
+
+#citydr-list li a em {
+    color: #414141;
+}
+
+#cityhot {
+    font-size: 14px;
+    display: block;
+}
+
+#subsite-list {
+    display: block;
+    padding-bottom: 20px;
+}
+
+#subsite-list li {
+    float: left;
+    padding: 2px 8px 2px 2px;
+}
+
+#subsite-list li a {
+    color: #a7a7a7;
+    font-family: 宋体;
+    font-size: 12px;
+}
+
+#subsite-list li a:hover {
+    color: #414141;
+    font-family: 宋体;
+    font-size: 12px;
+}
+
+#adinfo {
+    display: block;
+    padding: 60px 0 60px 0;
+}
+
+#adinfo li {
+    float: left;
+    display: block;
+    padding-right: 55px;
+}
+
+#adinfo .tit {
+    font-size: 28px;
+    color: #C1C1C1;
+}
+
+#adinfo .item a {
+    line-height: 36px;
+    display: block;
+    color: #C1C1C1;
+    text-align: center;
+}
+
+#adinfo .item a b {
+    display: block;
+    font-weight: normal;
+    font-size: 32px;
+    color: #a7a7a7;
+}
+
+#adinfo .item a:hover, #adinfo .item a:hover b {
+    text-decoration: none;
+    color: #000;
+}
+
+.title {
+    display: block;
+    padding: 1.8em 0 0 0;
+    font-size: 2.5em;
+}
+
+.title a:hover {
+    text-decoration: none;
+}
+
+.channel-remark {
+    display: block;
+    font-size: 1.1em;
+    color: #737373;
+    padding: 1em 0 0 0;
+    line-height: 1.6em;
+}
+
+#citybrother {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+}
+
+#location {
+    display: block;
+    padding: 1em 0;
+    border-bottom: solid 1px #e0e0e0;
+    color: #a7a7a7;
+}
+
+#location a, #location b {
+    padding: 6px;
+    color: #a7a7a7;
+}
+
+#location b {
+    font-weight: normal;
+    color: #a7a7a7;
+}

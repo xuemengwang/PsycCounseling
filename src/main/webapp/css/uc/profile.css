@@ -1,0 +1,254 @@
+.bgreg {
+    border-top: solid 1px #eee;
+}
+
+#regform {
+    display: block;
+    padding: 50px 0 80px 0;
+    width: 100%;
+    height: auto;
+}
+
+#regform .tit {
+    font-size: 16px;
+    padding-bottom: 40px;
+    display: block;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+#regform .item {
+    display: block;
+    height: auto;
+    padding: 10px 0 10px 40px;
+    clear: both;
+}
+
+#regform .item i {
+    font-size: 18px;
+    font-family: 宋体;
+    font-style: normal;
+    line-height: 35px;
+    height: 40px;
+    float: left;
+    width: 95px;
+}
+
+#regform .item input {
+    float: left;
+}
+
+#regform .item select {
+    margin-right: 5px;
+    border: solid 1px #C9C9C9;
+    float: left;
+}
+
+#bth_year, #bth_month, #bth_day {
+    width: 77px;
+}
+
+#username, #password, #passwordold, #password2, #realname, #drcard, #mobile, #graduateschool, #nickname, #telephone, #address, #certificatecode, #province, #city, #county,#bth_year,#bth_month,#bth_day {
+    width: 220px;
+    height: 24px;
+    line-height: 24px;
+    border: solid 1px #C9C9C9;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+#sex_0, #sex_1 {
+    position: relative;
+    top: 10px;
+    *top: 5px;
+}
+
+#education, #drlevel, #marriage {
+    width: 240px;
+}
+
+#bio, #chargestandard, #payment {
+    width: 300px;
+    height: 135px;
+    border: solid 1px #C9C9C9;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 14px;
+    float: left;
+}
+
+#regform .item label {
+    float: left;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 70px;
+    position: relative;
+    top: 5px;
+}
+
+#isrealname, #regform .item label.gk, #isnickname, #regform .item label.gk2 {
+    margin-left: 8px;
+    position: relative;
+    top: 15px;
+}
+
+#regform .item label.gk, #regform .item label.gk2 {
+    font-size: 12px;
+    font-family: 宋体;
+    padding: 0;
+}
+
+#regform .item em {
+    float: left;
+    font-style: normal;
+    display: block;
+    padding-top: 12px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #737373;
+    width: 350px;
+}
+
+select {
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 6px;
+}
+
+.les i {
+    letter-spacing: 27px;
+}
+
+.les2 i {
+    letter-spacing: 10px;
+}
+
+.les3 i {
+    letter-spacing: 6px;
+}
+
+.formtxt {
+    float: left;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    color: #B0B0B0;
+}
+
+#btn-reg, #btn-again-reg, #btn-u-reg {
+    display: block;
+    min-width: 150px;
+    font-size: 30px;
+    height: 50px;
+    padding-top: 4px;
+    _padding: 3px;
+    _padding-right: 15px;
+    _padding-left: 15px;
+    float: left;
+}
+
+#agree {
+    position: relative;
+    top: 3px;
+    *top: 0;
+}
+
+.agree {
+    color: #279F32;
+}
+
+
+#reg-r {
+    float: right;
+    display: block;
+    padding-left: 40px;
+    width: 286px;
+    height: 700px;
+    padding-top: 80px;
+}
+
+#reg-r b {
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: normal;
+}
+
+#reg-r a.dr {
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+#reg-r a.login {
+    padding: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background: #F1F1F1;
+    border: solid 1px #DEDEDE;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #414141;
+}
+
+#reg-r a.login:hover {
+    text-decoration: none;
+    background: #F9F9F9;
+    color: #279F32;
+}
+
+.info {
+    float: left;
+    display: block;
+    padding: 4px;
+    background: #f9f9f9;
+    color: #A5A5A5;
+    font-family: 宋体;
+    font-size: 12px;
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.info2 {
+    width: 180px;
+}
+
+.cginfo {
+    float: left;
+    display: block;
+    padding: 4px;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.cginfo img {
+    position: relative;
+    top: 5px;
+}
+
+.err {
+    float: left;
+    display: block;
+    padding: 4px;
+    padding-left: 0;
+    background: #FFFEE4;
+    color: #f30;
+    font-family: 宋体;
+    font-size: 12px;
+    width: 230px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.err img {
+    vertical-align: -5px;
+    padding-right: 4px;
+}

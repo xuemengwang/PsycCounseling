@@ -1,0 +1,386 @@
+body {
+    background: #fff;
+}
+
+.bg0 {
+    background: #49BE54;
+}
+
+.ptop {
+    padding: 0 0 100px 0;
+}
+
+.pd {
+    padding: 20px 0 20px 0;
+}
+
+.title {
+    padding: 5px 0 25px 25px;
+    font-size: 28px;
+    color: #FFFFFF;
+    float: left;
+    border-left: solid 1px #D7D7D7;
+}
+
+#logo {
+    float: left;
+    display: block;
+    width: 235px;
+    height: 63px;
+    padding: 0;
+    position: relative;
+}
+
+#logo a {
+    margin: 0;
+}
+
+#logo a img {
+    width: 210px;
+    height: 63px;
+}
+
+img:hover {
+    filter: alpha(Opacity=100);
+    -moz-opacity: 1.0;
+    opacity: 1.0;
+}
+
+.fun {
+    display: block;
+    float: right;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.fun i {
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+
+.fun a {
+    padding: 5px 30px;
+    border-radius: 100px;
+    background: #49BE54;
+    color: #fff;
+}
+
+.fun a:hover {
+    padding: 5px 30px;
+    border-radius: 100px;
+    background: #55C860;
+    color: #fff;
+    text-decoration: none;
+}
+
+#login-l {
+    display: block;
+    float: left;
+}
+
+#login-l p {
+    display: block;
+    height: 460px;
+    width: 540px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+}
+
+#login-r {
+    display: block;
+    width: 365px;
+    padding: 0 25px 25px 25px;
+    height: 390px;
+    float: right;
+    background: #E9F4E9;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#login-r b {
+    display: block;
+    font-size: 24px;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+#login-r .info {
+    display: block;
+    min-height: 30px;
+    width: 365px;
+}
+
+#login-r .info span {
+    background: #FFFEE5;
+    position: relative;
+    left: 0;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#login-r .info span b {
+    font-size: 12px;
+    font-family: 宋体;
+    color: #f60;
+    padding: 5px;
+    padding-left: 0;
+    display: block;
+    width: 365px;
+    background: #FFFFB1;
+    border-radius: 6px;
+}
+
+#login-r .item {
+    display: block;
+    height: 70px;
+}
+
+#login-r .item i {
+    font-size: 18px;
+    font-style: normal;
+    letter-spacing: 2px;
+    line-height: 50px;
+    height: 50px;
+    float: left;
+    width: 70px;
+}
+
+#username, #password, #password2, #mobile, #dynpwd {
+    width: 270px;
+    height: 35px;
+    line-height: 35px;
+    border: solid 1px #C9C9C9;
+    border-radius: 6px;
+    padding: 8px;
+    font-size: 16px;
+    float: left;
+}
+
+#username:focus, #password:focus, #password2:focus, #mobile:focus, #dynpwd:focus {
+    outline: 0;
+}
+
+#dynpwd {
+    width: 120px;
+    margin-right: 7px;
+}
+
+
+#expires, #remember, .findpwd {
+    float: left;
+    color: #737373;
+    cursor: pointer;
+}
+
+#expires {
+    float: left;
+    line-height: 20px;
+    height: 20px;
+}
+
+#remember {
+    display: block;
+    height: 20px;
+    line-height: 20px;
+    padding-left: 4px;
+}
+
+#login-r .item a.findpwd {
+    padding-left: 15px;
+    color: #279F32;
+}
+
+#btn-login {
+    display: block;
+    min-width: 290px;
+    font-size: 24px;
+    height: 45px;
+    padding-top: 4px;
+    _padding: 3px;
+    _padding-right: 15px;
+    _padding-left: 15px;
+    background: #50D25B;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Microsoft JhengHei';
+}
+
+#btn-login:hover {
+    display: block;
+    min-width: 290px;
+    font-size: 24px;
+    height: 45px;
+    padding-top: 4px;
+    _padding: 3px;
+    _padding-right: 15px;
+    _padding-left: 15px;
+    background: #53DD5F;
+    border-radius: .3em;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Microsoft JhengHei';
+}
+
+.reg {
+    padding: 0;
+    text-align: center;
+}
+
+.reg a.dow {
+    color: #737373;
+    font-size: 13px;
+}
+
+#gift {
+    display: block;
+    text-align: center;
+}
+
+#gift b {
+    font-size: 20px;
+    color: #f60;
+}
+
+#gift img {
+    width: 171px;
+    height: 140px;
+}
+
+#login-r .item a.send {
+    display: block;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #f5f5f5;
+    font-size: 14px;
+    color: #279F32;
+    border: solid 1px #7BC659;
+    border-radius: 6px;
+    float: left;
+}
+
+#login-r .item a.send:hover {
+    display: block;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #f9f9f9;
+    font-size: 14px;
+    color: #279F32;
+    border: solid 1px #49AE1D;
+    border-radius: 6px;
+    float: left;
+    text-decoration: none;
+}
+
+#login-r .item a.off, #login-r .item a.off:hover {
+    display: block;
+    width: 140px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #e2e2e2;
+    font-size: 14px;
+    color: #a7a7a7;
+    border: solid 1px #e2e2e2;
+    border-radius: 6px;
+    float: left;
+    text-decoration: none;
+}
+
+#login-r .item a i {
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    height: auto;
+    width: auto;
+    padding: 0;
+    float: none;
+    padding-right: 5px;
+    font-weight: bold;
+    color: #f60;
+    letter-spacing: 0;
+}
+
+#login-r .autologin {
+    height: 40px;
+}
+
+#login-r .autologin i {
+    height: 40px;
+}
+
+#login-r .in1 {
+    display: none;
+}
+
+.logintab {
+    display: block;
+    border-bottom: solid 1px #DBDBDB;
+    width: 435px;
+    position: relative;
+    left: -35px;
+}
+
+.logintab a {
+    display: block;
+    width: 50%;
+    height: 50px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #737373;
+    text-align: center;
+    float: left;
+}
+
+.logintab a:hover {
+    display: block;
+    width: 50%;
+    height: 50px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #279F32;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+}
+
+.logintab a.on {
+    display: block;
+    width: 50%;
+    height: 50px;
+    line-height: 60px;
+    font-size: 16px;
+    color: #279F32;
+    text-align: center;
+    float: left;
+    border-bottom: solid 2px #279F32;
+    position: relative;
+    top: 1px;
+}
+
+#copyright {
+    height: 130px;
+    background: #fff;
+    border: none;
+}
+
+#copyright p {
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+#copyright span {
+    height: 60px;
+    text-align: center;
+}

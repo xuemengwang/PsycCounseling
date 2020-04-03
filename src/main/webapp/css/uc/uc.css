@@ -1,0 +1,499 @@
+body {
+    background: #E7E8EB;
+}
+
+.clear {
+    display: block;
+    clear: both;
+}
+
+.pdline {
+    display: block;
+    padding: .5em;
+}
+
+.line {
+    border-bottom: solid 1px #D1D1D1;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.ei {
+    display: block;
+    width: 17%;
+    float: left;
+}
+
+.ri {
+    display: block;
+    width: 83%;
+    float: left;
+    background: #fff;
+    min-height: 700px;
+    font-size: 1.3em;
+}
+
+i, em {
+    font-style: normal;
+}
+
+.pd {
+    display: block;
+    padding: 40px 0 20px 0;
+}
+
+#mge {
+    display: block;
+    float: left;
+    padding: 6px 0 0 0;
+    width: 50%;
+}
+
+.bar .wrap .topright {
+    display: block;
+    float: right;
+    width: 50%;
+}
+
+.pagefoot {
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bar .wrap {
+    width: 96%;
+}
+
+#showmsg {
+    right: 12.5em;
+}
+
+#showmsg div {
+    position: relative;
+    left: 0;
+}
+
+.menulist {
+    display: block;
+    margin: 1em 0;
+    font-size: 1.3em;
+}
+
+.menulist li {
+    display: block;
+    text-indent: 2em;
+    padding: 0;
+}
+
+.menulist .tit {
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    text-indent: 1.2em;
+    padding: .2em 0;
+    color: #737373;
+    border-left: solid 12px #50D25B;
+}
+
+.menulist .item a {
+    display: block;
+    width: 100%;
+    padding: .8em 0;
+    font-size: .9em;
+}
+
+.menulist .item a.on {
+    display: block;
+    width: 100%;
+    padding: .8em 0;
+    background: #fff;
+    color: #000;
+}
+
+.menulist .item a:hover {
+    display: block;
+    width: 100%;
+    padding: .8em 0;
+    background: #f6f6f6;
+    text-decoration: none;
+    color: #000;
+}
+
+.menulist .item a i {
+    font-style: normal;
+    color: #a7a7a7;
+    font-size: .9em;
+    padding-left: .2em;
+}
+
+.fun {
+    display: block;
+    padding: 1em;
+}
+
+.fun span {
+    float: right;
+    width: 70%;
+    display: block;
+    text-align: right;
+}
+
+.fun span #clt_search {
+    padding: .5em;
+    font-size: 1em;
+    width: 40%;
+    border: none;
+    background: #eee;
+    font-family: 'Microsoft YaHei';
+    text-indent: .2em;
+}
+
+.fun span a.btn_search {
+    padding: .45em 2em;
+    font-size: 1em;
+    background: #fff;
+    color: #000;
+    border: solid 1px #e0e0e0;
+    margin-right: .5em;
+}
+
+.fun span a.btn_search:hover {
+    background: #e0e0e0;
+    color: #000;
+}
+
+.fun .btn_addnew {
+    padding: .6em 0;
+    font-size: 1em;
+    background: #50D25B;
+    color: #fff;
+    border-radius: .2em;
+    float: left;
+    margin-left: 3em;
+    width: 20%;
+    text-align: center;
+}
+
+.fun .btn_addnew:hover {
+    padding: .6em 0;
+    font-size: 1em;
+    background: #4BC956;
+    color: #fff;
+    border-radius: .2em;
+    width: 20%;
+    text-align: center;
+}
+
+.fun .btn_back {
+    padding: .6em 4em;
+    font-size: 1em;
+    background: #fff;
+    color: #000;
+    border-radius: 100em;
+    float: left;
+    margin-left: 3em;
+    border: solid 1px #e0e0e0;
+}
+
+.fun .btn_back:hover {
+    padding: .6em 4em;
+    font-size: 1em;
+    background: #eee;
+    color: #000;
+    border-radius: 100em;
+}
+
+.fun #clt_search:focus, .fun a.btn_search:focus, .fun a.btn_addnew:focus, .fun a.btn_back:focus {
+    outline: 0;
+}
+
+.tablist {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid 1px #e0e0e0;
+    height: 3em;
+}
+
+.tablist li {
+    float: left;
+    width: 16%;
+}
+
+.tablist li a {
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+}
+
+.tablist li a i {
+    font-style: normal;
+    color: #a7a7a7;
+    font-size: .9em;
+}
+
+.tablist li a.on {
+    border-bottom: solid 2px #50D25B;
+}
+
+.tablist li a:hover {
+    color: #000;
+}
+
+.menulist .item a span i.newstat i {
+    left: 0;
+    top: 0;
+    width: auto;
+    display: inline;
+    height: auto;
+    line-height: 1em;
+    padding: .22em .25em;
+    line-height: .5em;
+    text-align: center;
+    font-size: 1em;
+    font-family: Arial;
+    color: #fff;
+}
+
+.menulist .item a span i.newstat {
+    height: auto;
+    width: auto;
+}
+
+.channel-tit {
+    font-size: 40px;
+    display: block;
+    font-weight: normal;
+    padding-top: 40px;
+}
+
+#uctit {
+    display: block;
+    width: 180px;
+    height: auto;
+    padding: 50px 0 5px 0;
+    font-size: 42px;
+    float: left;
+    color: #05C616;
+    font-weight: bold;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+}
+
+.split {
+    display: block;
+    height: 10px;
+    clear: both;
+}
+
+.uc-wd {
+    width: 1000px;
+    background: #fff;
+    margin: 0 auto;
+}
+
+#ucmenu {
+    display: block;
+    width: 790px;
+    height: auto;
+    float: right;
+    padding-top: 65px;
+}
+
+#ucmenu .item {
+    float: left;
+    display: block;
+}
+
+#ucmenu .item a {
+    font-size: 15px;
+    padding: 17px;
+    color: #737373;
+    display: block;
+}
+
+#ucmenu .item a:hover {
+    font-size: 15px;
+    padding: 17px;
+    color: #000;
+    background: #DADADA;
+    display: block;
+    text-decoration: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#ucmenu .item a.on, #ucmenu .item a.on:hover {
+    font-size: 15px;
+    padding: 17px;
+    color: #000;
+    background: #EFEFEF;
+    display: block;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+#ucmenu .itemright {
+    float: right;
+    display: block;
+    padding-top: 6px;
+}
+
+#ucmenu .itemright a {
+    font-size: 12px;
+    padding: 20px 15px 20px 15px;
+    display: block;
+    color: #737373;
+}
+
+#ucmenu .itemright a:hover {
+    font-size: 12px;
+    padding: 20px 15px 20px 15px;
+    display: block;
+    color: #000;
+    background: #DADADA;
+    text-decoration: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+#ucmenu .itemright a.on, #ucmenu .itemright a.on:hover {
+    font-size: 12px;
+    padding: 20px 15px 20px 15px;
+    display: block;
+    color: #000;
+    background: #EFEFEF;
+    text-decoration: none;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.tb-loginhint {
+    position: absolute;
+}
+
+.tb-loginhint i {
+    position: relative;
+    top: -145px;
+    *top: -55px;
+    left: 150px;
+    font-style: normal;
+    font-family: 宋体;
+    text-align: center;
+    color: #000;
+    border: solid 1px #E6E6E6;
+    border-bottom: solid 2px #BEBEBE;
+    border-radius: 20px;
+    border-right: solid 2px #BEBEBE;
+    background: #FFFDDA;
+    display: block;
+    width: 210px;
+    height: 24px;
+    line-height: 24px;
+    padding: 4px;
+}
+
+.tb-loginhint i a {
+    color: #279F32;
+    padding: 4px;
+}
+
+#j-vcode {
+    padding: 25px;
+}
+
+#j-vcode i, #j-vcode #veritycode, #j-vcode #changecode {
+    font-style: normal;
+    float: left;
+}
+
+#j-vcode i {
+    display: block;
+    width: 160px;
+    font-size: 15px;
+    color: #737373;
+    padding-left: 5px;
+    line-height: 30px;
+}
+
+#veritycode {
+    width: 100px;
+    height: 35px;
+    display: block;
+    border: 1px solid #C9C9C9;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+.uc-tit-navi {
+    display: block;
+    clear: both;
+    height: 35px;
+    width: 1000px;
+    line-height: 30px;
+    margin: 0 auto;
+    border-bottom: solid 1px #E8E8E8;
+    padding-top: 20px;
+}
+
+.uc-tit-navi b, .uc-tit-navi a, .uc-tit-navi i {
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.uc-tit-navi i {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.footbd {
+    border: none;
+}
+
+.boxtop {
+    display: block;
+    padding: 3em 0 1em 0;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: solid 1px #eee;
+}
+
+.boxtop .title {
+    display: block;
+    color: #000;
+    font-size: 1.8em;
+    float: left;
+    width: auto;
+    padding-right: 1em;
+}
+
+.boxtop a.back {
+    display: block;
+    width: auto;
+    padding: .2em 2em;
+    float: left;
+    text-align: center;
+    font-size: .8em;
+    border: solid 1px #eee;
+    position: relative;
+    top: .7em;
+    border-radius: 100em;
+}
+
+.boxtop a.back:hover {
+    display: block;
+    width: auto;
+    padding: .2em 2em;
+    float: left;
+    text-align: center;
+    font-size: .8em;
+    border: solid 1px #43B64E;
+    position: relative;
+    top: .7em;
+    border-radius: 100em;
+}

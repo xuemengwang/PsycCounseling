@@ -1,0 +1,272 @@
+.pdline {
+    display: block;
+    padding: 1em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body, #menu .item a.on, #menu .item a.on:hover {
+    background: #fff;
+}
+
+.bg5, #menu .item ul, #menu .item ul li {
+    background: #eee;
+}
+
+#menu .item ul li a:hover {
+    background: #f9f9f9;
+}
+
+#menu .item a:hover {
+    color: #000;
+    background: #fff;
+}
+
+.al {
+    display: block;
+    width: 70%;
+    float: left;
+}
+
+.ar {
+    display: block;
+    width: 27%;
+    float: right;
+}
+
+.aType {
+    display: block;
+    border-bottom: solid 1px #e0e0e0;
+    height: 4.55em;
+    margin: 3em 0 0 0;
+}
+
+.aType .item {
+    display: block;
+    width: 11.5%;
+    float: left;
+}
+
+.aType .item a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0 .5em 0;
+    font-size: 1.6em;
+    color: #414141;
+}
+
+.aType .item a.on, .aType .item a.on:hover, .aType .item a:hover {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 1em 0 .5em 0;
+    font-size: 1.6em;
+    color: #4BC956;
+    text-decoration: none;
+    border-bottom: solid 2px #50D25B;
+}
+
+.aTag {
+    display: block;
+}
+
+.aTag .item {
+    display: block;
+    float: left;
+    padding: .5em 1em .2em 0;
+}
+
+.aTag .item a {
+    display: block;
+    padding: .2em .8em;
+    border: solid 1px #eee;
+    border-radius: 100em;
+    font-size: 1em;
+}
+
+.aTag .item a:hover, .aTag .item a.on, .aTag .item a.on:hover {
+    display: block;
+    padding: .2em .8em;
+    border: solid 1px #4BC956;
+    border-radius: 100em;
+    text-decoration: none;
+    background: #4BC956;
+    color: #fff;
+    font-size: 1em;
+}
+
+#tagnameinfo {
+    display: block;
+    border-bottom: solid 1px #eee;
+    padding: 1em 0 .5em 0;
+    font-size: 1.2em;
+    color: #737373;
+}
+
+.artlist {
+    display: block;
+    width: 100%;
+    padding: .5em 0;
+}
+
+.artlist .item {
+    display: block;
+    clear: both;
+    border-bottom: solid 1px #eee;
+    padding: 1.2em 0;
+    width: 100%;
+}
+
+.artlist .item .coverImg {
+    display: block;
+    width: 20%;
+    float: left;
+}
+
+.artlist .item .coverImg img {
+    width: 100%;
+    height: auto;
+}
+
+.artlist .item ul {
+    display: block;
+    width: 72%;
+    float: left;
+}
+
+.artlist .item ul li {
+    display: block;
+    padding-left: 1.5em;
+}
+
+.artlist .item ul .tit {
+    height: 5em;
+}
+
+.artlist .item ul .tit a {
+    font-size: 1.7em;
+    color: #000;
+    padding: 1em 0;
+}
+
+.artlist .item ul .tit a:hover {
+    font-size: 1.7em;
+    color: #4BC956;
+    padding: 1em 0;
+}
+
+.artlist .item ul .des {
+    display: block;
+}
+
+.artlist .item ul .des i {
+    font-style: normal;
+    padding-right: 2em;
+    color: #737373;
+}
+
+.artlist .item ul .des i a {
+    color: #000;
+}
+
+.artlist .item ul .tag {
+    display: block;
+    padding-top: 1em;
+}
+
+.artlist .item ul .tag a {
+    padding: .2em .8em;
+    border: solid 1px #eee;
+    border-radius: 100em;
+    font-size: 1em;
+    margin-right: .6em;
+    color: #a7a7a7;
+}
+
+.artlist .item ul .tag a:hover {
+    padding: .2em .8em;
+    margin-right: .6em;
+    border: solid 1px #4BC956;
+    border-radius: 100em;
+    text-decoration: none;
+    background: #4BC956;
+    color: #fff;
+}
+
+.artlist .no {
+    display: block;
+    padding: 5em 0;
+    text-align: center;
+    color: #a7a7a7;
+    font-size: 1em;
+}
+
+#page {
+    font-size: .8em;
+    padding: 3em 0 5em 0;
+    width: 100%;
+}
+
+#page a, #page span {
+    margin-right: .2em;
+}
+
+.pd {
+    padding: 5em 0;
+}
+
+.hot {
+    display: block;
+    width: 100%;
+    background: #f8f8f8;
+    padding: 1em 0 0 0;
+}
+
+.hot .tit {
+    display: block;
+    font-size: 1.6em;
+    border-left: solid 5px #F63756;
+    padding: 0 .6em;
+}
+
+.hot .item {
+    display: block;
+    width: 91%;
+    margin: 0 auto;
+    padding: 2em .5em;
+    border-bottom: solid 1px #eee;
+}
+
+.hot .item a.photo {
+    display: block;
+    width: 100%;
+}
+
+.hot .item a.photo img {
+    display: block;
+    width: 100%;
+}
+
+.hot .item a.txt {
+    display: block;
+    font-size: 1.2em;
+    padding: .5em 0 0 0;
+}
+
+.hot .item a.txt:hover {
+    display: block;
+    font-size: 1.2em;
+    padding: .5em 0 0 0;
+    color: #4BC956;
+}
+
+.hot .no {
+    display: block;
+    padding: 5em 0;
+    text-align: center;
+    color: #a7a7a7;
+    font-size: 1em;
+}

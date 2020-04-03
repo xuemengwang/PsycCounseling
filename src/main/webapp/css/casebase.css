@@ -1,0 +1,454 @@
+body {
+    background: #fff;
+}
+
+.bg1 {
+    background: #E0E0E0;
+}
+
+.bg2 {
+    background: #F0F0F0;
+}
+
+.bg3 {
+    background: #EBEBEB;
+}
+
+.bg4 {
+    background: #E5E5E5;
+}
+
+.bg5 {
+    background: #eee;
+}
+
+.bg6 {
+    background: #f8f8f8;
+}
+
+.bg7 {
+    background: #f2f2f2;
+}
+
+.bg8 {
+    background: #fff;
+}
+
+.dr-topinfo {
+    display: block;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    padding: 45px 0 0 0;
+}
+
+.dr-topinfo .h-base-a {
+    display: block;
+    float: left;
+    width: 200px;
+    height: auto;
+}
+
+.dr-topinfo .h-base-a li {
+    display: block;
+}
+
+.dr-topinfo .h-base-a .avatar {
+    display: block;
+    width: 200px;
+    height: 200px;
+    padding: 0 0 15px 0;
+    border-radius: 100px;
+}
+
+.dr-topinfo .h-base-a .avatar img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #eee;
+    overflow: hidden;
+}
+
+.dr-topinfo .h-base-a .fans {
+    padding-left: 30px;
+}
+
+.dr-topinfo .h-base-a .fans a {
+    padding-right: 15px;
+    color: #a7a7a7;
+    font-family: å®‹ä½“;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    border-right: solid 1px #D1D1D1;
+}
+
+.dr-topinfo .h-base-a .fans a i {
+    font-style: normal;
+    font-size: 16px;
+    display: block;
+    color: #737373;
+    font-family: Arial;
+    padding-top: 8px;
+}
+
+.dr-topinfo .h-base-a .fans .no {
+    border: none;
+    padding: 0;
+    padding-left: 15px;
+}
+
+.dr-topinfo .h-base-a .fans a:hover, .dr-topinfo .h-base-a .fans a:hover i {
+    text-decoration: none;
+    color: #000;
+}
+
+.dr-topinfo .h-base-a .fun {
+    clear: both;
+    padding: 20px 0 0 0;
+}
+
+.dr-topinfo .h-base-a .fun a {
+    display: block;
+    height: 30px;
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 6px;
+    color: #737373;
+    background: #f4f4f4;
+    float: left;
+    font-size: 12px;
+    border: solid 1px #DDD;
+}
+
+.dr-topinfo .h-base-a .fun a:hover {
+    display: block;
+    height: 30px;
+    width: 90px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 6px;
+    color: #000;
+    background: #fff;
+    float: left;
+    font-size: 12px;
+    border: solid 1px #DDD;
+    text-decoration: none;
+}
+
+.dr-topinfo .h-base-a .fun .no, .dr-topinfo .h-base-a .fun a.no:hover {
+    margin: 0;
+}
+
+.dr-topinfo .dr-base {
+    float: left;
+    display: block;
+    padding-left: 50px;
+    width: 740px;
+    height: auto;
+}
+
+.dr-topinfo .dr-base li {
+    display: block;
+}
+
+.dr-topinfo .dr-base .dname {
+    height: auto;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.dr-topinfo .dr-base .dname b {
+    font-size: 38px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 1);
+    color: #000;
+    padding-right: 10px;
+}
+
+.dr-topinfo .dr-base .dname em {
+    position: absolute;
+}
+
+.dr-topinfo .dr-base .dname em img {
+    vertical-align: middle;
+    position: relative;
+    top: -6px;
+}
+
+.dr-topinfo .dr-base .dremark {
+    color: #a7a7a7;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.dr-topinfo .dr-base .dask {
+    padding-top: 15px;
+}
+
+.dr-topinfo .dr-base .dask i {
+    color: #05B014;
+    font-style: normal;
+    font-size: 20px;
+    display: block;
+    padding: 10px 20px 0 0;
+    float: left;
+}
+
+.dr-topinfo .dr-base .dask i em {
+    font-size: 28px;
+    font-style: normal;
+    font-family: Arial;
+}
+
+.dr-topinfo .dr-base .dask a ,a.button,.button{
+    display: block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #06C219;
+    border-radius: 100px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+    float: left;
+}
+
+.dr-topinfo .dr-base .dask a:hover ,a:hover.button{
+    display: block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    background: #07D01B;
+    border-radius: 100px;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+}
+
+.dr-topinfo .dr-base .dr-menu {
+    padding: 10px 0 0 0;
+    display: block;
+    position: relative;
+    left: -10px;
+}
+
+.menupd {
+    display: block;
+    padding: 20px 0 10px 0;
+}
+
+.menulist {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.menulist .item {
+    float: left;
+    display: block;
+    padding: 0 30px 0 0;
+}
+
+.menulist .item a {
+    display: block;
+    width: 118px;
+    height: 118px;
+    background-repeat: no-repeat;
+}
+
+.menulist .item a:hover {
+    display: block;
+    width: 118px;
+    height: 118px;
+    background-repeat: no-repeat;
+    text-decoration: none;
+}
+
+.menulist .item a:hover i, .menulist li.on a i {
+    color: #000;
+}
+
+.menulist .item a i {
+    font-size: 18px;
+    color: #9B9B9B;
+    font-style: normal;
+    position: relative;
+    top: 119px;
+    display: block;
+    width: 118px;
+    text-align: center;
+}
+
+.menulist .item a.m1 {
+    background-position: 0 top;
+}
+
+.menulist .item a.m2 {
+    background-position: -118px top;
+}
+
+.menulist .item a.m3 {
+    background-position: -236px top;
+}
+
+.menulist .item a.m4 {
+    background-position: -354px top;
+}
+
+.menulist .item a.m5 {
+    background-position: -472px top;
+}
+
+.menulist .item a.m1:hover {
+    background-position: 0 bottom;
+}
+
+.menulist .item a.m2:hover {
+    background-position: -118px bottom;
+}
+
+.menulist .item a.m3:hover {
+    background-position: -236px bottom;
+}
+
+.menulist .item a.m4:hover {
+    background-position: -354px bottom;
+}
+
+.menulist .item a.m5:hover {
+    background-position: -472px bottom;
+}
+
+.menulist .on a.m1 {
+    background-position: 0 bottom;
+}
+
+.menulist .on a.m2 {
+    background-position: -118px bottom;
+}
+
+.menulist .on a.m3 {
+    background-position: -236px bottom;
+}
+
+.menulist .on a.m4 {
+    background-position: -354px bottom;
+}
+
+.menulist .on a.m5 {
+    background-position: -472px bottom;
+}
+
+.menulist .more {
+    display: block;
+    height: 170px;
+}
+
+.menulist .more a {
+    display: block;
+}
+
+
+.menulist .more ul {
+    position: absolute;
+    display: none;
+    z-index: 9;
+    background: #f2f2f2;
+    padding: 0;
+    padding: 20px 0 5px 0;
+    margin: 40px 0 0 0;
+}
+
+.menulist .more ul li {
+    display: block;
+    float: none;
+    padding: 0 4px 0 4px;
+}
+
+.menulist .more ul li a {
+    background: none;
+    padding: 8px 40px 8px 40px;
+    display: block;
+    font-size: 15px;
+    height: auto;
+    width: auto;
+    color: #737373;
+}
+
+.menulist .more ul li a:hover {
+    background: #fff;
+    padding: 8px 40px 8px 40px;
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+    height: auto;
+    width: auto;
+}
+
+.avatar img:hover {
+    filter: alpha(Opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.cutover {
+    display: block;
+    position: absolute;
+}
+
+.cutover a {
+    position: relative;
+    top: -25px;
+    left: 880px;
+    font-size: 14px;
+    background: #D0D0D0;
+    color: #fff;
+    display: block;
+    padding: 8px 15px 8px 15px;
+    border-radius: 100px;
+}
+
+.cutover a:hover {
+    position: relative;
+    top: -25px;
+    left: 880px;
+    font-size: 14px;
+    background: #D3D3D3;
+    color: #fff;
+    display: block;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+    border-radius: 100px;
+}
+
+.avatar .cutoveravatar {
+    position: absolute;
+    display: none;
+}
+
+.avatar .cutoveravatar em {
+    position: relative;
+    top: -200px;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    width: 200px;
+    height: 200px;
+    line-height: 350px;
+    text-align: center;
+    background: #000;
+    opacity: .45;
+    -moz-opacity: .45;
+    filter: alpha(opacity=45);
+    border-radius: 100px;
+}
