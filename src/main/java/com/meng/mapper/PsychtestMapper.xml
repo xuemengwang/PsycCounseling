@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.meng.mapper.PsychtestMapper">
+  <resultMap id="BaseResultMap" type="com.meng.model.Psychtest">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="type" jdbcType="TINYINT" property="type" />
+    <result column="level_low" jdbcType="VARCHAR" property="levelLow" />
+    <result column="level_mid" jdbcType="VARCHAR" property="levelMid" />
+    <result column="level_height" jdbcType="VARCHAR" property="levelHeight" />
+    <result column="level_perfect" jdbcType="VARCHAR" property="levelPerfect" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="com.meng.model.Psychtest">
+    <result column="outline" jdbcType="LONGVARCHAR" property="outline" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, name, type, level_low, level_mid, level_height, level_perfect
+  </sql>
+  <sql id="Blob_Column_List">
+    outline
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from psychtest
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from psychtest
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.meng.model.Psychtest">
+    insert into psychtest (id, name, type, 
+      level_low, level_mid, level_height, 
+      level_perfect, outline)
+    values (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{type,jdbcType=TINYINT}, 
+      #{levelLow,jdbcType=VARCHAR}, #{levelMid,jdbcType=VARCHAR}, #{levelHeight,jdbcType=VARCHAR}, 
+      #{levelPerfect,jdbcType=VARCHAR}, #{outline,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.meng.model.Psychtest">
+    insert into psychtest
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="name != null">
+        name,
+      </if>
+      <if test="type != null">
+        type,
+      </if>
+      <if test="levelLow != null">
+        level_low,
+      </if>
+      <if test="levelMid != null">
+        level_mid,
+      </if>
+      <if test="levelHeight != null">
+        level_height,
+      </if>
+      <if test="levelPerfect != null">
+        level_perfect,
+      </if>
+      <if test="outline != null">
+        outline,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="name != null">
+        #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        #{type,jdbcType=TINYINT},
+      </if>
+      <if test="levelLow != null">
+        #{levelLow,jdbcType=VARCHAR},
+      </if>
+      <if test="levelMid != null">
+        #{levelMid,jdbcType=VARCHAR},
+      </if>
+      <if test="levelHeight != null">
+        #{levelHeight,jdbcType=VARCHAR},
+      </if>
+      <if test="levelPerfect != null">
+        #{levelPerfect,jdbcType=VARCHAR},
+      </if>
+      <if test="outline != null">
+        #{outline,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.meng.model.Psychtest">
+    update psychtest
+    <set>
+      <if test="name != null">
+        name = #{name,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null">
+        type = #{type,jdbcType=TINYINT},
+      </if>
+      <if test="levelLow != null">
+        level_low = #{levelLow,jdbcType=VARCHAR},
+      </if>
+      <if test="levelMid != null">
+        level_mid = #{levelMid,jdbcType=VARCHAR},
+      </if>
+      <if test="levelHeight != null">
+        level_height = #{levelHeight,jdbcType=VARCHAR},
+      </if>
+      <if test="levelPerfect != null">
+        level_perfect = #{levelPerfect,jdbcType=VARCHAR},
+      </if>
+      <if test="outline != null">
+        outline = #{outline,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.meng.model.Psychtest">
+    update psychtest
+    set name = #{name,jdbcType=VARCHAR},
+      type = #{type,jdbcType=TINYINT},
+      level_low = #{levelLow,jdbcType=VARCHAR},
+      level_mid = #{levelMid,jdbcType=VARCHAR},
+      level_height = #{levelHeight,jdbcType=VARCHAR},
+      level_perfect = #{levelPerfect,jdbcType=VARCHAR},
+      outline = #{outline,jdbcType=LONGVARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.meng.model.Psychtest">
+    update psychtest
+    set name = #{name,jdbcType=VARCHAR},
+      type = #{type,jdbcType=TINYINT},
+      level_low = #{levelLow,jdbcType=VARCHAR},
+      level_mid = #{levelMid,jdbcType=VARCHAR},
+      level_height = #{levelHeight,jdbcType=VARCHAR},
+      level_perfect = #{levelPerfect,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <!-- add by administrator -->
+  <select id="selectAllByType" parameterType="int" resultType="com.meng.model.Psychtest">
+    select * from psychtest where type=#{type}
+  </select>
+</mapper>

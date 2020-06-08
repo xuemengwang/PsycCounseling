@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.meng.mapper.TestresultMapper" >
+  <resultMap id="BaseResultMap" type="com.meng.model.Testresult" >
+    <id column=" id" property="id" jdbcType="INTEGER" />
+    <result column="testid" property="testid" jdbcType="INTEGER" />
+    <result column="testerid" property="testerid" jdbcType="INTEGER" />
+    <result column="score" property="score" jdbcType="INTEGER" />
+  </resultMap>
+  <resultMap id="ResultMapWithBLOBs" type="com.meng.model.Testresult" extends="BaseResultMap" >
+    <result column="conclusion" property="conclusion" jdbcType="LONGVARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    " id", testid, testerid, score
+  </sql>
+  <sql id="Blob_Column_List" >
+    conclusion
+  </sql>
+  <select id="selectByExampleWithBLOBs" resultMap="ResultMapWithBLOBs" parameterType="com.meng.model.TestresultExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from testresult
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.meng.model.TestresultExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from testresult
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="ResultMapWithBLOBs" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from testresult
+    where " id" = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from testresult
+    where " id" = #{id,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.meng.model.TestresultExample" >
+    delete from testresult
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.meng.model.Testresult" >
+    insert into testresult (" id", testid, testerid, 
+      score, conclusion)
+    values (#{id,jdbcType=INTEGER}, #{testid,jdbcType=INTEGER}, #{testerid,jdbcType=INTEGER}, 
+      #{score,jdbcType=INTEGER}, #{conclusion,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.meng.model.Testresult" >
+    insert into testresult
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        " id",
+      </if>
+      <if test="testid != null" >
+        testid,
+      </if>
+      <if test="testerid != null" >
+        testerid,
+      </if>
+      <if test="score != null" >
+        score,
+      </if>
+      <if test="conclusion != null" >
+        conclusion,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="testid != null" >
+        #{testid,jdbcType=INTEGER},
+      </if>
+      <if test="testerid != null" >
+        #{testerid,jdbcType=INTEGER},
+      </if>
+      <if test="score != null" >
+        #{score,jdbcType=INTEGER},
+      </if>
+      <if test="conclusion != null" >
+        #{conclusion,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.meng.model.TestresultExample" resultType="java.lang.Integer" >
+    select count(*) from testresult
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update testresult
+    <set >
+      <if test="record.id != null" >
+        " id" = #{record.id,jdbcType=INTEGER},
+      </if>
+      <if test="record.testid != null" >
+        testid = #{record.testid,jdbcType=INTEGER},
+      </if>
+      <if test="record.testerid != null" >
+        testerid = #{record.testerid,jdbcType=INTEGER},
+      </if>
+      <if test="record.score != null" >
+        score = #{record.score,jdbcType=INTEGER},
+      </if>
+      <if test="record.conclusion != null" >
+        conclusion = #{record.conclusion,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExampleWithBLOBs" parameterType="map" >
+    update testresult
+    set " id" = #{record.id,jdbcType=INTEGER},
+      testid = #{record.testid,jdbcType=INTEGER},
+      testerid = #{record.testerid,jdbcType=INTEGER},
+      score = #{record.score,jdbcType=INTEGER},
+      conclusion = #{record.conclusion,jdbcType=LONGVARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update testresult
+    set " id" = #{record.id,jdbcType=INTEGER},
+      testid = #{record.testid,jdbcType=INTEGER},
+      testerid = #{record.testerid,jdbcType=INTEGER},
+      score = #{record.score,jdbcType=INTEGER}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.meng.model.Testresult" >
+    update testresult
+    <set >
+      <if test="testid != null" >
+        testid = #{testid,jdbcType=INTEGER},
+      </if>
+      <if test="testerid != null" >
+        testerid = #{testerid,jdbcType=INTEGER},
+      </if>
+      <if test="score != null" >
+        score = #{score,jdbcType=INTEGER},
+      </if>
+      <if test="conclusion != null" >
+        conclusion = #{conclusion,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where " id" = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="com.meng.model.Testresult" >
+    update testresult
+    set testid = #{testid,jdbcType=INTEGER},
+      testerid = #{testerid,jdbcType=INTEGER},
+      score = #{score,jdbcType=INTEGER},
+      conclusion = #{conclusion,jdbcType=LONGVARCHAR}
+    where " id" = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.meng.model.Testresult" >
+    update testresult
+    set testid = #{testid,jdbcType=INTEGER},
+      testerid = #{testerid,jdbcType=INTEGER},
+      score = #{score,jdbcType=INTEGER}
+    where " id" = #{id,jdbcType=INTEGER}
+  </update>
+
+
+  <!--add by administrator  -->
+
+</mapper>

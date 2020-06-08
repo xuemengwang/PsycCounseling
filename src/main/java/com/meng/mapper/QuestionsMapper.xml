@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.meng.mapper.QuestionsMapper">
+  <resultMap id="BaseResultMap" type="com.meng.model.Questions">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="testid" jdbcType="INTEGER" property="testid" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="option1" jdbcType="VARCHAR" property="option1" />
+    <result column="score1" jdbcType="INTEGER" property="score1" />
+    <result column="option2" jdbcType="VARCHAR" property="option2" />
+    <result column="score2" jdbcType="INTEGER" property="score2" />
+    <result column="option3" jdbcType="VARCHAR" property="option3" />
+    <result column="score3" jdbcType="INTEGER" property="score3" />
+    <result column="option4" jdbcType="VARCHAR" property="option4" />
+    <result column="score4" jdbcType="INTEGER" property="score4" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, testid, title, option1, score1, option2, score2, option3, score3, option4, score4
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from questions
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from questions
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.meng.model.Questions">
+    insert into questions (id, testid, title, 
+      option1, score1, option2, 
+      score2, option3, score3, 
+      option4, score4)
+    values (#{id,jdbcType=INTEGER}, #{testid,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, 
+      #{option1,jdbcType=VARCHAR}, #{score1,jdbcType=INTEGER}, #{option2,jdbcType=VARCHAR}, 
+      #{score2,jdbcType=INTEGER}, #{option3,jdbcType=VARCHAR}, #{score3,jdbcType=INTEGER}, 
+      #{option4,jdbcType=VARCHAR}, #{score4,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.meng.model.Questions">
+    insert into questions
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="testid != null">
+        testid,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="option1 != null">
+        option1,
+      </if>
+      <if test="score1 != null">
+        score1,
+      </if>
+      <if test="option2 != null">
+        option2,
+      </if>
+      <if test="score2 != null">
+        score2,
+      </if>
+      <if test="option3 != null">
+        option3,
+      </if>
+      <if test="score3 != null">
+        score3,
+      </if>
+      <if test="option4 != null">
+        option4,
+      </if>
+      <if test="score4 != null">
+        score4,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="testid != null">
+        #{testid,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="option1 != null">
+        #{option1,jdbcType=VARCHAR},
+      </if>
+      <if test="score1 != null">
+        #{score1,jdbcType=INTEGER},
+      </if>
+      <if test="option2 != null">
+        #{option2,jdbcType=VARCHAR},
+      </if>
+      <if test="score2 != null">
+        #{score2,jdbcType=INTEGER},
+      </if>
+      <if test="option3 != null">
+        #{option3,jdbcType=VARCHAR},
+      </if>
+      <if test="score3 != null">
+        #{score3,jdbcType=INTEGER},
+      </if>
+      <if test="option4 != null">
+        #{option4,jdbcType=VARCHAR},
+      </if>
+      <if test="score4 != null">
+        #{score4,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.meng.model.Questions">
+    update questions
+    <set>
+      <if test="testid != null">
+        testid = #{testid,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="option1 != null">
+        option1 = #{option1,jdbcType=VARCHAR},
+      </if>
+      <if test="score1 != null">
+        score1 = #{score1,jdbcType=INTEGER},
+      </if>
+      <if test="option2 != null">
+        option2 = #{option2,jdbcType=VARCHAR},
+      </if>
+      <if test="score2 != null">
+        score2 = #{score2,jdbcType=INTEGER},
+      </if>
+      <if test="option3 != null">
+        option3 = #{option3,jdbcType=VARCHAR},
+      </if>
+      <if test="score3 != null">
+        score3 = #{score3,jdbcType=INTEGER},
+      </if>
+      <if test="option4 != null">
+        option4 = #{option4,jdbcType=VARCHAR},
+      </if>
+      <if test="score4 != null">
+        score4 = #{score4,jdbcType=INTEGER},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.meng.model.Questions">
+    update questions
+    set testid = #{testid,jdbcType=INTEGER},
+      title = #{title,jdbcType=VARCHAR},
+      option1 = #{option1,jdbcType=VARCHAR},
+      score1 = #{score1,jdbcType=INTEGER},
+      option2 = #{option2,jdbcType=VARCHAR},
+      score2 = #{score2,jdbcType=INTEGER},
+      option3 = #{option3,jdbcType=VARCHAR},
+      score3 = #{score3,jdbcType=INTEGER},
+      option4 = #{option4,jdbcType=VARCHAR},
+      score4 = #{score4,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+
+  <!-- add by administrator -->
+  <select id="getMultiQuestionsByTestid" parameterType="int" resultType="com.meng.model.Questions">
+    select * from questions where testid = #{testid}
+  </select>
+</mapper>
